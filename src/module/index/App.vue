@@ -2,6 +2,11 @@
   <div id="app">
     <img src="./images/logo.png">
     <hello></hello>
+    <a href="frondend.html">前端技术</a>
+    <a href="design.html">设计</a>
+    <a href="live.html">生活</a>
+    <a href="about.html">关于我</a>
+    <a href="index.html">sunshine</a>
   </div>
 </template>
 

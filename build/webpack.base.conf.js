@@ -2,6 +2,7 @@ var path = require('path')
 var config = require('../config')
 var utils = require('./utils')
 var projectRoot = path.resolve(__dirname, '../')
+// glob模块，用于读取webpack入口目录文件
 var glob = require('glob');
 var entries = getEntry(['./src/module/*.js', './src/module/**/*.js']); // 获得入口js文件
 
@@ -78,17 +79,26 @@ module.exports = {
 }
 
 function getEntry(globPath) {
+  /*
+  * 这里的引入进来的globPath 就是上面的 ['./src/module/*.js', './src/module/**\/*.js']
+  * */
   var entries = {},
     basename, tmp, pathname;
   if (typeof (globPath) != "object") {
     globPath = [globPath]
   }
+
+  /*
+  * path.basename 提取出用'/'隔开的path的最后一部分，除第一个参数外其余是需要过滤的字符串
+  * path.extname 获取文件后缀
+  * */
   globPath.forEach((itemPath) => {
     glob.sync(itemPath).forEach(function (entry) {
       basename = path.basename(entry, path.extname(entry));
       if (entry.split('/').length > 4) {
         tmp = entry.split('/').splice(-3);
         pathname = tmp.splice(0, 1) + '/' + basename; // 正确输出js和html的路径
+        // splice(0, 1)取tmp数组中第一个元素
         entries[pathname] = entry;
       } else {
         entries[basename] = entry;
