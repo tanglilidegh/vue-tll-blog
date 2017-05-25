@@ -1,7 +1,10 @@
 <template>
   <div id="app">
     <img src="./images/logo.png">
-    <div>详情内容</div>
+    <div>关于我模块详情内容</div>
+    <div>
+      <p>这里是关于我模块的详情内容</p>
+    </div>
   </div>
 </template>
 
