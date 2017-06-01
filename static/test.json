@@ -1,0 +1,21 @@
+{
+    "testDate": {
+        "__type": "Date",
+        "iso": "2017-05-26T07:35:08.855Z"
+    },
+    "testObject": {
+        "number": 2014,
+        "string": "famous film name is 2014"
+    },
+    "testNull": null,
+    "testNumber": 2014,
+    "testArray": [
+        "famous film name is 2014",
+        2014
+    ],
+    "testString": "famous film name is 2014",
+    "version": null,
+    "objectId": "5927daaa44d904006412c997",
+    "createdAt": "2017-05-26T07:35:06.598Z",
+    "updatedAt": "2017-05-26T12:22:29.502Z"
+}
