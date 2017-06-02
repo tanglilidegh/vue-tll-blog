@@ -1,8 +1,22 @@
 <template>
-    <div id="app">
-        <img src="./images/logo.png">
+    <div id="app" class="main-wrapper">
+        <v-header></v-header>
+        <!--<img src="./images/logo.png">-->
+        <div class="frontend margin-top-200">
+            <ul class="frontend-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+                <li>Vue</li>
+                <li>SASS</li>
+                <li>Git</li>
+                <li>iTerm2</li>
+            </ul>
+        </div>
         <hello></hello>
-        <a href="frondend.html">前端技术</a>
+        <v-footer></v-footer>
+
+        <a href="frontend.html">前端技术</a>
         <a href="design.html">设计</a>
         <a href="live.html">生活</a>
         <a href="about.html">关于我</a>
@@ -28,6 +42,8 @@
 
     import 'common/css/reset.css';
     import Hello from 'components/Hello/Hello'
+    import VFooter from 'components/common/footer'
+    import VHeader from 'components/common/header'
 //    console.log(AV);
       const TestObject = AV.Object.extend('TestObject');
       const testObject = new TestObject();
@@ -112,18 +128,24 @@
             });
         },
         components: {
-            Hello
+            Hello,VFooter,VHeader
         }
     }
 </script>
 
-<style>
+<style lang="scss" rel="stylesheet/scss" scoped>
+    .margin-top-200{
+        margin-top: 20%;
+    }
     #app {
         font-family: 'Avenir', Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         text-align: center;
-        color: #2c3e50;
-        margin-top: 60px;
+    }
+    .main-wrapper{
+        width: 100%;
+        background:#effafa url("./../../common/img/header-bg.png") no-repeat center top;
+        background-size: 100%;
     }
 </style>
