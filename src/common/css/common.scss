@@ -1,0 +1,26 @@
+.margin-top-200 {
+    margin-top: 14.8%;
+}
+#app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+}
+.w100 {
+    width: 100%;
+    min-width: 1480px;
+}
+.bg-white {
+    background: #fff;
+}
+a.more {
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    color: #8a8a8a;
+}
+.main-wrapper {
+    background: #effafa url("./../../common/img/header-bg.png") no-repeat center top;
+    background-size: 100%;
+}
