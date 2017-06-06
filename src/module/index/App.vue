@@ -827,7 +827,6 @@
         }
         .live {
             padding-bottom: 50px;
-            background: #f4f4f6;
         }
         .live-container {
             width: 85%;
