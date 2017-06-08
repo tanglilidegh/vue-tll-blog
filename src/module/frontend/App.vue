@@ -1,6 +1,6 @@
 <template>
     <div id="app" class="w100 frontend-wrapper bg-gray">
-        <v-header></v-header>
+        <v-header :isActive="1"></v-header>
         <div class="big-img-bg">
             <img src="./images/banner-bg.jpg" alt="不想做只会敲代码的程序媛，想做自己人生的产品经理。" class="big-img">
             <div class="mask">
@@ -202,23 +202,23 @@
     .frontend-wrapper{
         .container{
             position: relative;
-            margin: 0 auto;
+            margin: 0 auto 40px;
             width: 70%;
             text-align: left;
 
             .technology-list{
-                padding: 10px 0;
                 width: 67%;
                 font-size: 0;
                 background: #fff;
                 li{
-                    padding: 10px 20px;
+                    padding: 20px 20px;
                     font-size: 0;
                     border-bottom: 1px solid #f6f6f6;
                     img{
                         /*margin-right: 20px;*/
                         display: inline-block;
-                        width: 28%;
+                        width: 26%;
+                        height: 140px;
                         vertical-align: top;
                     }
                     .Introduction{

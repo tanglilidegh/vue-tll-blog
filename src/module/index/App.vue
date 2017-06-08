@@ -1,6 +1,6 @@
 <template>
     <div id="app" class="main-wrapper w100">
-        <v-header></v-header>
+        <v-header :isActive="0"></v-header>
         <div class="frontend margin-top-200">
             <ul class="frontend-list">
                 <li><a href="javascript:void (0);">HTML</a></li>
@@ -185,16 +185,17 @@
                     -->
                 </ul>
             </div>
-            <a href="javascript:void (0);" class="more">查看更多>></a>
+            <a href="frontend.html" class="more">查看更多>></a>
         </div>
+
         <div class="design bg-white">
             <h3 class="title">Design</h3>
             <div class="design-container">
                 <ul class="design-list">
                     <li>
                         <div class="triangle-left-gray triangle-right-bottom"></div>
-                        <div class="info h148"></div>
-                        <div class="info h148 text-right">
+                        <div class="info h145"></div>
+                        <div class="info h145 text-right">
                             <h3 class="design-class">UI</h3>
                             <p class="company">银丰科技有限公司官网设计</p>
                             <p class="time">2015-10-15 8月</p>
@@ -212,13 +213,13 @@
                     <li>
                         <div class="triangle-right-gray triangle-left-top"></div>
                         <div class="triangle-left-gray triangle-right-bottom"></div>
-                        <div class="info h148 text-left">
+                        <div class="info h145 text-left border-bottom-3">
                             <h3 class="design-class">UI</h3>
                             <p class="company">银丰科技有限公司官网设计</p>
                             <p class="time">2015-10-15 8月</p>
                             <p class="address">浙江 杭州 动漫之都 1003</p>
                         </div>
-                        <div class="info h148 text-right">
+                        <div class="info h145 text-right border-top-3">
                             <h3 class="design-class">App</h3>
                             <p class="company">银丰科技有限公司官网设计</p>
                             <p class="time">2015-10-15 8月</p>
@@ -236,13 +237,13 @@
                     <li>
                         <div class="triangle-right-gray triangle-left-top"></div>
                         <div class="triangle-left-gray triangle-right-bottom"></div>
-                        <div class="info h148 text-left">
+                        <div class="info h145 text-left border-bottom-3">
                             <h3 class="design-class">网站</h3>
                             <p class="company">银丰科技有限公司官网设计</p>
                             <p class="time">2015-10-15 8月</p>
                             <p class="address">浙江 杭州 动漫之都 1003</p>
                         </div>
-                        <div class="info h148 text-right">
+                        <div class="info h145 text-right border-top-3">
                             <h3 class="design-class">UI</h3>
                             <p class="company">银丰科技有限公司官网设计</p>
                             <p class="time">2015-10-15 8月</p>
@@ -259,19 +260,19 @@
                     </li>
                     <li>
                         <div class="triangle-right-gray triangle-left-top"></div>
-                        <div class="info h148 text-left">
+                        <div class="info h145 text-left">
                             <h3 class="design-class">Logo</h3>
                             <p class="company">银丰科技有限公司官网设计</p>
                             <p class="time">2015-10-15 8月</p>
                             <p class="address">浙江 杭州 动漫之都 1003</p>
                         </div>
-                        <div class="info h148">
+                        <div class="info h145">
                         </div>
                     </li>
                     <li>
                         <div class="triangle-left-gray triangle-right-bottom"></div>
-                        <div class="info h148"></div>
-                        <div class="info h148 text-right">
+                        <div class="info h145"></div>
+                        <div class="info h145 text-right">
                             <h3 class="design-class">UI</h3>
                             <p class="company">银丰科技有限公司官网设计</p>
                             <p class="time">2015-10-15 8月</p>
@@ -289,14 +290,13 @@
                     <li>
                         <div class="triangle-right-gray triangle-left-top"></div>
                         <div class="triangle-left-gray triangle-right-bottom"></div>
-                        <div class="info h148 text-left">
+                        <div class="info h145 text-left border-bottom-3">
                             <h3 class="design-class">UI</h3>
                             <p class="company">银丰科技有限公司官网设计</p>
                             <p class="time">2015-10-15 8月</p>
                             <p class="address">浙江 杭州 动漫之都 1003</p>
                         </div>
-
-                        <div class="info h148 text-right">
+                        <div class="info h145 text-right border-top-3">
                             <h3 class="design-class">包装设计</h3>
                             <p class="company">银丰科技有限公司官网设计</p>
                             <p class="time">2015-10-15 8月</p>
@@ -309,7 +309,7 @@
                     </li>
                 </ul>
             </div>
-            <a href="javascript:void (0);" class="more">查看更多>></a>
+            <a href="design.html" class="more">查看更多>></a>
         </div>
         <div class="live bg-white">
             <h3 class="title">Live</h3>
@@ -451,11 +451,11 @@
                     <p class="data-time">2016-10-12 12:00</p>
                 </div>
             </div>
-            <a href="javascript:void (0);" class="more">查看更多>></a>
+            <a href="live.html" class="more">查看更多>></a>
         </div>
         <div class="about-me">
             <img src="./images/about-me.jpg" class="me" alt="点击了解更多我的信息">
-            <a href="http://iheima.com" class="introduction">
+            <a href="about.html" class="introduction">
                 <h3>About me</h3>
                 <span class="hand"><img src="./images/hand.png" alt="点击了解更多我的信息"></span>
                 <p>设想一生，计划着成功。其实，前途无量全靠实力，端端正正才能成就自己！设想一生，计划着成功。其实，前途无量全靠实力，端端正正才能成就自己！<br>
@@ -506,9 +506,12 @@
             </span>
         </div>
         <v-footer></v-footer>
+        <a href="javascript:void(0);" id="btn" title="回到顶部"></a>
     </div>
 </template>
+
 <script>
+    import { goToTop } from './../../common/js/gototop';
     import Vue from 'vue'
     import AV from 'leancloud-storage';
 
@@ -607,15 +610,20 @@
             }, function (error) {
                 // 失败了
             });
+            goToTop();
         },
         components: {
             Hello, VFooter, VHeader
         }
     }
 </script>
-
 <style lang="scss" rel="stylesheet/scss" scoped>
     @import "./../../common/css/common";
+    /*@import "./../../common/css/demo-page.css";*/
+    /*@import "./../../common/css/hover.css";*/
+    /* Underline From Center */
+
+
     .main-wrapper {
         h3.title {
             position: relative;
@@ -781,11 +789,8 @@
                 z-index: 1;
             }
 
-            .h148 {
-                height: 148px;
-            }
-            .h296 {
-                height: 296px;
+            .h145 {
+                height: 145px;
             }
             .text-right {
                 text-align: right;
@@ -793,14 +798,17 @@
             .text-left {
                 text-align: left;
             }
+            .border-top-3{
+                border-top: 3px solid #fff;
+            }
+            .border-bottom-3{
+                border-bottom: 3px solid #fff;
+            }
             .info {
                 padding: 20px;
-
                 color: #fff;
                 background: #fafafa;
-                /*text-align: left;*/
                 .design-class {
-
                     display: inline-block;
                     width: 160px;
                     font-size: 40px;
@@ -1081,6 +1089,25 @@
 
             }
 
+        }
+
+        /* common */
+        #btn {
+            width:40px;
+            height:40px;
+            position:fixed;
+            right:65px;
+            bottom:10px;
+            display:none;
+            background:url(./../../common/img/gototop.jpg) no-repeat left top;
+            z-index: 100;
+        }
+        #btn:hover {
+            background:url(./../../common/img/gototop.jpg) no-repeat 0 -39px;
+        }
+        .bg {
+            width:1190px;
+            margin:0 auto;
         }
     }
 </style>

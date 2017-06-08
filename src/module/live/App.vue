@@ -1,8 +1,13 @@
 <template>
-    <div id="app" class="main-wrapper w100">
-        <v-header></v-header>
+    <div id="app" class="w100">
+        <v-header :isActive="3"></v-header>
+        <div class="big-img-bg">
+            <img src="./images/banner-bg.jpg" alt="不想做只会敲代码的程序媛，想做自己人生的产品经理。" class="big-img">
+            <div class="mask">
+                <h3>不想做只会coding的程序媛，想做自己人生的产品经理。</h3>
+            </div>
+        </div>
         <div class="live">
-            <h3 class="title">Live</h3>
             <div class="live-container">
                 <div class="pic">
                     <img src="./images/live-img1.jpg"/>
@@ -163,10 +168,12 @@
     @import "./../../common/css/common";
     .live {
         padding-bottom: 50px;
+        background: #f4f4f6;
     }
     .live-container {
         width: 85%;
-        margin: 50px auto 0;
+        margin: 20px auto 0;
+
         -moz-column-count: 5;
         -moz-column-gap: 15px;
         -moz-column-rule: 0 solid #ff0000;
