@@ -1,6 +1,6 @@
 <template>
     <div id="app" class="w100 bg-gray">
-        <v-header :isActive="2"></v-header>
+        <v-header :isActive=2></v-header>
         <div class="big-img-bg">
             <img src="./images/banner-bg.jpg" alt="认真对待每一个作品，用心做，多思考，做一个具有工匠精神的。" class="big-img">
             <div class="mask">

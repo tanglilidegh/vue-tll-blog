@@ -1,6 +1,6 @@
 <template>
     <div id="app" class="main-wrapper w100">
-        <v-header :isActive="0"></v-header>
+        <v-header :isActive=0></v-header>
         <div class="frontend margin-top-200">
             <ul class="frontend-list">
                 <li><a href="javascript:void (0);">HTML</a></li>
@@ -187,6 +187,22 @@
             </div>
             <a href="frontend.html" class="more">查看更多>></a>
         </div>
+        <mt-navbar class="page-part" v-model="selected">
+            <mt-tab-item id="1">未使用</mt-tab-item>
+            <mt-tab-item id="2">已使用</mt-tab-item>
+            <mt-tab-item id="3">已过期</mt-tab-item>
+        </mt-navbar>
+        <mt-tab-container v-model="selected">
+            <mt-tab-container-item id="1">
+                未使用
+            </mt-tab-container-item>
+            <mt-tab-container-item id="2">
+                已使用
+            </mt-tab-container-item>
+            <mt-tab-container-item id="3">
+                已过期
+            </mt-tab-container-item>
+        </mt-tab-container>
 
         <div class="design bg-white">
             <h3 class="title">Design</h3>
@@ -512,7 +528,10 @@
 
 <script>
     import { goToTop } from './../../common/js/gototop';
-    import Vue from 'vue'
+    import Vue from 'vue';
+    import {Navbar, TabItem} from 'mint-ui';
+    Vue.component(Navbar.name, Navbar);
+    Vue.component(TabItem.name, TabItem);
     import AV from 'leancloud-storage';
 
     let APP_ID = 'NIBvX6tQOTPhLV3tY00uPii6-gzGzoHsz';
@@ -599,6 +618,7 @@
         data(){
             return {
                 content: {},
+                selected: '1',
             }
         },
         mounted() {

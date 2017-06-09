@@ -11,7 +11,6 @@
         name: 'v-header',
         data () {
             return {
-                isActive: 0,
                 linksList: [
                     {text: 'Home', hrefUrl: 'index.html'},
                     {text: 'FrontEnd', hrefUrl: 'frontend.html'},
@@ -23,14 +22,15 @@
         },
         props: {
             isActive: {
-                type: String,
-                default: '0',
+                type: Number,
+                default: 0,
                 validator(t) {
                     return [
-                            '1',
-                            '2',
-                            '3',
-                            '4'
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
                         ].indexOf(t) > -1;
                 }
             },

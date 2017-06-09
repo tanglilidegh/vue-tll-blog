@@ -1,6 +1,6 @@
 <template>
     <div id="app" class="w100 frontend-wrapper bg-gray">
-        <v-header :isActive="1"></v-header>
+        <v-header :isActive=1></v-header>
         <div class="big-img-bg">
             <img src="./images/banner-bg.jpg" alt="不想做只会敲代码的程序媛，想做自己人生的产品经理。" class="big-img">
             <div class="mask">

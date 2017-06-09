@@ -1,6 +1,6 @@
 <template>
     <div id="app" class="w100 about-bg">
-        <v-header :isActive="4"></v-header>
+        <v-header :isActive=4></v-header>
         <div class="container">
             <div class="technology-list">
                 <ul>
