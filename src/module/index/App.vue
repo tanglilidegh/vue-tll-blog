@@ -1,6 +1,7 @@
 <template>
     <div id="app" class="main-wrapper w100">
         <v-header :isActive=0></v-header>
+        <!--
         <div class="frontend margin-top-200">
             <ul class="frontend-list">
                 <li><a href="javascript:void (0);">HTML</a></li>
@@ -182,28 +183,289 @@
                     <p class="issuing-time">发布时间：3小时前</p>
 
                     </li>
-                    -->
+
                 </ul>
             </div>
             <a href="frontend.html" class="more">查看更多>></a>
         </div>
-        <mt-navbar class="page-part" v-model="selected">
-            <mt-tab-item id="1">未使用</mt-tab-item>
-            <mt-tab-item id="2">已使用</mt-tab-item>
-            <mt-tab-item id="3">已过期</mt-tab-item>
+    -->
+        <mt-navbar class="page-part margin-top-200" v-model="selected">
+            <mt-tab-item id="1">HTML</mt-tab-item>
+            <mt-tab-item id="2">CSS</mt-tab-item>
+            <mt-tab-item id="3">JS</mt-tab-item>
+            <mt-tab-item id="4">Vue</mt-tab-item>
+            <mt-tab-item id="5">SASS</mt-tab-item>
+            <mt-tab-item id="6">Git</mt-tab-item>
+            <mt-tab-item id="7">iTerm2</mt-tab-item>
         </mt-navbar>
         <mt-tab-container v-model="selected">
             <mt-tab-container-item id="1">
-                未使用
+                <div class="frontend-container">
+                    <ul>
+                        <li>
+                            <img src="./images/frontend-img1.jpg" alt="frontend-img1">
+                            <h5><a href="javascript:void (0);">vue 动态修改a标签的样式</a></h5>
+                            <p>公司要做一个类似今日头条的项目，用前后端分离的方式做成HTML5页面，先在微信中运行，领导...</p>
+                            <p class="issuing-time">发布时间：3小时前</p>
+
+                        </li>
+                        <li>
+                            <img src="./images/frontend-img2.jpg" alt="frontend-img1">
+                            <h5><a href="javascript:void (0);">在vue2.0项目中一个简单的倒计时功能</a></h5>
+                            <p>公司3月底有一个运动会项目，项目中有一项是平板支撑，参加比赛的人会通过扫二维的方式进入到报名页面，我们的页面会...</p>
+                            <p class="issuing-time">发布时间：3小时前</p>
+
+                        </li>
+                        <li>
+                            <img src="./images/frontend-img3.jpg" alt="frontend-img1">
+                            <h5><a href="javascript:void (0);">vue-router 2.0 常用基础知识点之router.push()</a></h5>
+                            <p>router.push(location) 除了使用 <\router-link>\ 创建 a 标签来定义导航链接，我们还可以借助 router。...</p>
+                            <p class="issuing-time">发布时间：3小时前</p>
+
+                        </li>
+                        <li>
+                            <img src="./images/frontend-img4.jpg" alt="frontend-img1">
+                            <h5><a href="javascript:void (0);">vue-router 2.0 常用基础知识点之导航钩子</a></h5>
+                            <p>导航钩子 vue-router 提供的导航钩子主要用来拦截导航，让它完成跳转或取消。有多种方式可以在路由导航发生时执行钩子：全局的或者组件级的...</p>
+                            <p class="issuing-time">发布时间：3小时前</p>
+
+                        </li>
+                        <li>
+                            <img src="./images/frontend-img5.jpg" alt="frontend-img1">
+                            <h5><a href="javascript:void (0);">非常有用的CSS代码片段</a></h5>
+                            <p>字体渐变色 2色 字体渐变色 4色 label标签和表单控件垂直居中对齐 渐变背景 文本两端对齐的样式 限制输入字数，超出部分显示...</p>
+                            <p class="issuing-time">发布时间：3小时前</p>
+
+                        </li>
+                        <li>
+                            <img src="./images/frontend-img6.jpg" alt="frontend-img1">
+                            <h5><a href="javascript:void (0);">常用网站链接</a></h5>
+                            <p>1、工作中常用的小功能 草料二维码生成器 http://cli.im/在线二维码解码器 ...</p>
+                            <p class="issuing-time">发布时间：3小时前</p>
+
+                        </li>
+                        <li>
+                            <img src="./images/frontend-img7.jpg" alt="frontend-img1">
+                            <h5><a href="javascript:void (0);">vue 动态修改a标签的样式</a></h5>
+                            <p>公司要做一个类似今日头条的项目，用前后端分离的方式做成HTML5页面，先在微信中运行...</p>
+                            <p class="issuing-time">发布时间：3小时前</p>
+
+                        </li>
+                        <li>
+                            <img src="./images/frontend-img1.jpg" alt="frontend-img1">
+                            <h5><a href="javascript:void (0);">微信授权、登录、注册逻辑</a></h5>
+                            <p>刚进入公司的时候，参与了一个公司较为复杂的项目，我们公司大部分都只是一些活动页...</p>
+                            <p class="issuing-time">发布时间：3小时前</p>
+
+                        </li>
+                    </ul>
+                </div>
             </mt-tab-container-item>
             <mt-tab-container-item id="2">
-                已使用
+                <div class="frontend-container">
+                    <ul>
+                        <li>
+                            <img src="./images/frontend-img1.jpg" alt="frontend-img1">
+                            <h5><a href="javascript:void (0);">vue 动态修改a标签的样式</a></h5>
+                            <p>公司要做一个类似今日头条的项目，用前后端分离的方式做成HTML5页面，先在微信中运行，领导...</p>
+                            <p class="issuing-time">发布时间：3小时前</p>
+
+                        </li>
+                        <li>
+                            <img src="./images/frontend-img2.jpg" alt="frontend-img1">
+                            <h5><a href="javascript:void (0);">在vue2.0项目中一个简单的倒计时功能</a></h5>
+                            <p>公司3月底有一个运动会项目，项目中有一项是平板支撑，参加比赛的人会通过扫二维的方式进入到报名页面，我们的页面会...</p>
+                            <p class="issuing-time">发布时间：3小时前</p>
+
+                        </li>
+                        <li>
+                            <img src="./images/frontend-img3.jpg" alt="frontend-img1">
+                            <h5><a href="javascript:void (0);">vue-router 2.0 常用基础知识点之router.push()</a></h5>
+                            <p>router.push(location) 除了使用 <\router-link>\ 创建 a 标签来定义导航链接，我们还可以借助 router。...</p>
+                            <p class="issuing-time">发布时间：3小时前</p>
+
+                        </li>
+                        <li>
+                            <img src="./images/frontend-img4.jpg" alt="frontend-img1">
+                            <h5><a href="javascript:void (0);">vue-router 2.0 常用基础知识点之导航钩子</a></h5>
+                            <p>导航钩子 vue-router 提供的导航钩子主要用来拦截导航，让它完成跳转或取消。有多种方式可以在路由导航发生时执行钩子：全局的或者组件级的...</p>
+                            <p class="issuing-time">发布时间：3小时前</p>
+
+                        </li>
+                    </ul>
+                </div>
             </mt-tab-container-item>
             <mt-tab-container-item id="3">
-                已过期
+                <div class="frontend-container">
+                    <ul>
+                        <li>
+                            <img src="./images/frontend-img4.jpg" alt="frontend-img1">
+                            <h5><a href="javascript:void (0);">vue-router 2.0 常用基础知识点之导航钩子</a></h5>
+                            <p>导航钩子 vue-router 提供的导航钩子主要用来拦截导航，让它完成跳转或取消。有多种方式可以在路由导航发生时执行钩子：全局的或者组件级的...</p>
+                            <p class="issuing-time">发布时间：3小时前</p>
+
+                        </li>
+                        <li>
+                            <img src="./images/frontend-img5.jpg" alt="frontend-img1">
+                            <h5><a href="javascript:void (0);">非常有用的CSS代码片段</a></h5>
+                            <p>字体渐变色 2色 字体渐变色 4色 label标签和表单控件垂直居中对齐 渐变背景 文本两端对齐的样式 限制输入字数，超出部分显示...</p>
+                            <p class="issuing-time">发布时间：3小时前</p>
+
+                        </li>
+                        <li>
+                            <img src="./images/frontend-img6.jpg" alt="frontend-img1">
+                            <h5><a href="javascript:void (0);">常用网站链接</a></h5>
+                            <p>1、工作中常用的小功能 草料二维码生成器 http://cli.im/在线二维码解码器 ...</p>
+                            <p class="issuing-time">发布时间：3小时前</p>
+
+                        </li>
+                        <li>
+                            <img src="./images/frontend-img7.jpg" alt="frontend-img1">
+                            <h5><a href="javascript:void (0);">vue 动态修改a标签的样式</a></h5>
+                            <p>公司要做一个类似今日头条的项目，用前后端分离的方式做成HTML5页面，先在微信中运行...</p>
+                            <p class="issuing-time">发布时间：3小时前</p>
+
+                        </li>
+                        <li>
+                            <img src="./images/frontend-img1.jpg" alt="frontend-img1">
+                            <h5><a href="javascript:void (0);">微信授权、登录、注册逻辑</a></h5>
+                            <p>刚进入公司的时候，参与了一个公司较为复杂的项目，我们公司大部分都只是一些活动页...</p>
+                            <p class="issuing-time">发布时间：3小时前</p>
+
+                        </li>
+                        <li>
+                            <img src="./images/frontend-img1.jpg" alt="frontend-img1">
+                            <h5><a href="javascript:void (0);">vue 动态修改a标签的样式</a></h5>
+                            <p>公司要做一个类似今日头条的项目，用前后端分离的方式做成HTML5页面，先在微信中运行，领导...</p>
+                            <p class="issuing-time">发布时间：3小时前</p>
+
+                        </li>
+                        <li>
+                            <img src="./images/frontend-img2.jpg" alt="frontend-img1">
+                            <h5><a href="javascript:void (0);">在vue2.0项目中一个简单的倒计时功能</a></h5>
+                            <p>公司3月底有一个运动会项目，项目中有一项是平板支撑，参加比赛的人会通过扫二维的方式进入到报名页面，我们的页面会...</p>
+                            <p class="issuing-time">发布时间：3小时前</p>
+
+                        </li>
+                    </ul>
+                </div>
+            </mt-tab-container-item>
+            <mt-tab-container-item id="4">
+                <div class="frontend-container">
+                    <ul>
+                        <li>
+                            <img src="./images/frontend-img6.jpg" alt="frontend-img1">
+                            <h5><a href="javascript:void (0);">常用网站链接</a></h5>
+                            <p>1、工作中常用的小功能 草料二维码生成器 http://cli.im/在线二维码解码器 ...</p>
+                            <p class="issuing-time">发布时间：3小时前</p>
+
+                        </li>
+                        <li>
+                            <img src="./images/frontend-img7.jpg" alt="frontend-img1">
+                            <h5><a href="javascript:void (0);">vue 动态修改a标签的样式</a></h5>
+                            <p>公司要做一个类似今日头条的项目，用前后端分离的方式做成HTML5页面，先在微信中运行...</p>
+                            <p class="issuing-time">发布时间：3小时前</p>
+
+                        </li>
+                        <li>
+                            <img src="./images/frontend-img1.jpg" alt="frontend-img1">
+                            <h5><a href="javascript:void (0);">微信授权、登录、注册逻辑</a></h5>
+                            <p>刚进入公司的时候，参与了一个公司较为复杂的项目，我们公司大部分都只是一些活动页...</p>
+                            <p class="issuing-time">发布时间：3小时前</p>
+
+                        </li>
+                    </ul>
+                </div>
+            </mt-tab-container-item>
+            <mt-tab-container-item id="5">
+                <div class="frontend-container">
+                    <ul>
+                        <li>
+                            <img src="./images/frontend-img1.jpg" alt="frontend-img1">
+                            <h5><a href="javascript:void (0);">vue 动态修改a标签的样式</a></h5>
+                            <p>公司要做一个类似今日头条的项目，用前后端分离的方式做成HTML5页面，先在微信中运行，领导...</p>
+                            <p class="issuing-time">发布时间：3小时前</p>
+
+                        </li>
+                        <li>
+                            <img src="./images/frontend-img2.jpg" alt="frontend-img1">
+                            <h5><a href="javascript:void (0);">在vue2.0项目中一个简单的倒计时功能</a></h5>
+                            <p>公司3月底有一个运动会项目，项目中有一项是平板支撑，参加比赛的人会通过扫二维的方式进入到报名页面，我们的页面会...</p>
+                            <p class="issuing-time">发布时间：3小时前</p>
+
+                        </li>
+                    </ul>
+                </div>
+            </mt-tab-container-item>
+            <mt-tab-container-item id="6">
+                <div class="frontend-container">
+                    <ul>
+                        <li>
+                            <img src="./images/frontend-img5.jpg" alt="frontend-img1">
+                            <h5><a href="javascript:void (0);">非常有用的CSS代码片段</a></h5>
+                            <p>字体渐变色 2色 字体渐变色 4色 label标签和表单控件垂直居中对齐 渐变背景 文本两端对齐的样式 限制输入字数，超出部分显示...</p>
+                            <p class="issuing-time">发布时间：3小时前</p>
+
+                        </li>
+                        <li>
+                            <img src="./images/frontend-img6.jpg" alt="frontend-img1">
+                            <h5><a href="javascript:void (0);">常用网站链接</a></h5>
+                            <p>1、工作中常用的小功能 草料二维码生成器 http://cli.im/在线二维码解码器 ...</p>
+                            <p class="issuing-time">发布时间：3小时前</p>
+
+                        </li>
+                        <li>
+                            <img src="./images/frontend-img1.jpg" alt="frontend-img1">
+                            <h5><a href="javascript:void (0);">vue 动态修改a标签的样式</a></h5>
+                            <p>公司要做一个类似今日头条的项目，用前后端分离的方式做成HTML5页面，先在微信中运行，领导...</p>
+                            <p class="issuing-time">发布时间：3小时前</p>
+
+                        </li>
+                        <li>
+                            <img src="./images/frontend-img2.jpg" alt="frontend-img1">
+                            <h5><a href="javascript:void (0);">在vue2.0项目中一个简单的倒计时功能</a></h5>
+                            <p>公司3月底有一个运动会项目，项目中有一项是平板支撑，参加比赛的人会通过扫二维的方式进入到报名页面，我们的页面会...</p>
+                            <p class="issuing-time">发布时间：3小时前</p>
+
+                        </li>
+                    </ul>
+                </div>
+            </mt-tab-container-item>
+            <mt-tab-container-item id="7">
+                <div class="frontend-container">
+                    <ul>
+                        <li>
+                            <img src="./images/frontend-img1.jpg" alt="frontend-img1">
+                            <h5><a href="javascript:void (0);">vue 动态修改a标签的样式</a></h5>
+                            <p>公司要做一个类似今日头条的项目，用前后端分离的方式做成HTML5页面，先在微信中运行，领导...</p>
+                            <p class="issuing-time">发布时间：3小时前</p>
+
+                        </li>
+                        <li>
+                            <img src="./images/frontend-img2.jpg" alt="frontend-img1">
+                            <h5><a href="javascript:void (0);">在vue2.0项目中一个简单的倒计时功能</a></h5>
+                            <p>公司3月底有一个运动会项目，项目中有一项是平板支撑，参加比赛的人会通过扫二维的方式进入到报名页面，我们的页面会...</p>
+                            <p class="issuing-time">发布时间：3小时前</p>
+
+                        </li>
+                        <li>
+                            <img src="./images/frontend-img5.jpg" alt="frontend-img1">
+                            <h5><a href="javascript:void (0);">非常有用的CSS代码片段</a></h5>
+                            <p>字体渐变色 2色 字体渐变色 4色 label标签和表单控件垂直居中对齐 渐变背景 文本两端对齐的样式 限制输入字数，超出部分显示...</p>
+                            <p class="issuing-time">发布时间：3小时前</p>
+
+                        </li>
+                        <li>
+                            <img src="./images/frontend-img6.jpg" alt="frontend-img1">
+                            <h5><a href="javascript:void (0);">常用网站链接</a></h5>
+                            <p>1、工作中常用的小功能 草料二维码生成器 http://cli.im/在线二维码解码器 ...</p>
+                            <p class="issuing-time">发布时间：3小时前</p>
+
+                        </li>
+                    </ul>
+                </div>
             </mt-tab-container-item>
         </mt-tab-container>
-
         <div class="design bg-white">
             <h3 class="title">Design</h3>
             <div class="design-container">
@@ -527,7 +789,7 @@
 </template>
 
 <script>
-    import { goToTop } from './../../common/js/gototop';
+    import {goToTop} from './../../common/js/gototop';
     import Vue from 'vue';
     import {Navbar, TabItem} from 'mint-ui';
     Vue.component(Navbar.name, Navbar);
@@ -637,12 +899,26 @@
         }
     }
 </script>
+<style>
+    .mint-navbar .mint-tab-item.is-selected {
+        border-bottom: 3px solid #0b6d99 !important;
+        color: #0b6d99 !important;
+        margin-bottom: 0 !important;
+    }
+    .mint-navbar {
+        padding: 0 30%;
+        color: #0b6d99 !important;
+        background-image: linear-gradient(#effafa 0, white 100%);
+    }
+    .mint-navbar .mint-tab-item .mint-tab-item-label {
+        font-size: 18px !important;;
+    }
+    .mint-tab-container-item{
+        background: #f4f4f4;
+    }
+</style>
 <style lang="scss" rel="stylesheet/scss" scoped>
     @import "./../../common/css/common";
-    /*@import "./../../common/css/demo-page.css";*/
-    /*@import "./../../common/css/hover.css";*/
-    /* Underline From Center */
-
 
     .main-wrapper {
         h3.title {
@@ -732,7 +1008,7 @@
                 }
             }
         }
-        .design{
+        .design {
             padding-bottom: 30px;
         }
         .design-container {
@@ -818,10 +1094,10 @@
             .text-left {
                 text-align: left;
             }
-            .border-top-3{
+            .border-top-3 {
                 border-top: 3px solid #fff;
             }
-            .border-bottom-3{
+            .border-bottom-3 {
                 border-bottom: 3px solid #fff;
             }
             .info {
@@ -876,20 +1152,20 @@
                 min-height: 100px;
                 text-align: left;
                 background: #fff;
-                box-shadow:  1px 3px 0 1px #ddd;
+                box-shadow: 1px 3px 0 1px #ddd;
                 img {
                     width: 100%;
                     border-radius: 8px;
                 }
             }
-            .data-time{
+            .data-time {
                 position: relative;
                 margin-top: 10px;
                 padding-top: 10px;
                 /*line-height: 2;*/
                 color: #b0b0b0;
             }
-            .data-time::after{
+            .data-time::after {
                 content: '';
                 position: absolute;
                 left: 0;
@@ -974,84 +1250,84 @@
             }
 
         }
-        .links-contact{
+        .links-contact {
             margin: 0 auto;
             padding: 45px 0;
             width: 800px;
             font-size: 0;
             background: #fff;
-            .links, .contact-me{
+            .links, .contact-me {
                 width: 400px;
                 display: inline-block;
                 vertical-align: top;
                 color: #6a6a6a;
                 font-size: 0;
                 text-align: left;
-                h3{
+                h3 {
                     font-size: 30px;
                     padding-bottom: 20px;
                     font-weight: normal;
-                    font-family: SansSerif, sans-serif, Sana ;
+                    font-family: SansSerif, sans-serif, Sana;
                 }
 
             }
-            .links{
+            .links {
                 padding-right: 100px;
-                ul li{
+                ul li {
                     display: inline-block;
                     width: 50%;
                     line-height: 26px;
                 }
-                a{
+                a {
                     display: inline-block;
                     font-size: 16px;
                     color: #6a6a6a;
                     font-family: SansSerif, sans-serif, Sana;
                 }
             }
-            .contact-me{
+            .contact-me {
                 padding-left: 80px;
-                p{
+                p {
                     line-height: 30px;
                     font-size: 16px;
                     font-family: SansSerif, sans-serif, Sana;
 
                 }
-                .icon-bar{
+                .icon-bar {
                     margin-top: 15px;
                 }
-                .icon{
+                .icon {
                     margin-right: 10px;
                     display: inline-block;
                     width: 50px;
                     height: 50px;
                 }
-                .sina{
+                .sina {
                     background: url("./images/sina-gray.png") no-repeat center top;
                     -webkit-background-size: 100%;
                     background-size: 100%;
                 }
-                .sina:hover,.sina:active{
+                .sina:hover, .sina:active {
                     background: url("./images/sina-blue.png") no-repeat center top;
                     -webkit-background-size: 100%;
                     background-size: 100%;
                 }
-                .wechat{
+                .wechat {
                     background: url("./images/wechat-gray.png") no-repeat center top;
                     -webkit-background-size: 100%;
                     background-size: 100%;
                 }
-                .wechat:hover,.wechat:active{
+                .wechat:hover, .wechat:active {
                     background: url("./images/wechat-blue.png") no-repeat center top;
                     -webkit-background-size: 100%;
                     background-size: 100%;
                 }
-                .qq{
+                .qq {
                     background: url("./images/qq-gray.png") no-repeat center top;
                     -webkit-background-size: 100%;
                     background-size: 100%;
                 }
-                .qq:hover,.qq:active{
+                .qq:hover, .qq:active {
                     background: url("./images/qq-blue.png") no-repeat center top;
                     -webkit-background-size: 100%;
                     background-size: 100%;
@@ -1088,7 +1364,7 @@
                 background: rgba(11, 109, 153, .6);
                 z-index: 2;
                 cursor: pointer;
-                img.sunshine{
+                img.sunshine {
                     margin: 10px auto 40px;
                     width: 207px;
                     height: 65px;
@@ -1100,7 +1376,7 @@
                     line-height: 50px;
                     font-size: 36px;
                     font-family: Georgia, Cochin;
-                    border-bottom: 2px solid rgba(255,255,255,0.4);
+                    border-bottom: 2px solid rgba(255, 255, 255, 0.4);
 
                 }
                 p {
@@ -1113,21 +1389,23 @@
 
         /* common */
         #btn {
-            width:40px;
-            height:40px;
-            position:fixed;
-            right:65px;
-            bottom:10px;
-            display:none;
-            background:url(./../../common/img/gototop.jpg) no-repeat left top;
+            width: 40px;
+            height: 40px;
+            position: fixed;
+            right: 65px;
+            bottom: 10px;
+            display: none;
+            background: url(./../../common/img/gototop.jpg) no-repeat left top;
             z-index: 100;
         }
         #btn:hover {
-            background:url(./../../common/img/gototop.jpg) no-repeat 0 -39px;
+            background: url(./../../common/img/gototop.jpg) no-repeat 0 -39px;
         }
         .bg {
-            width:1190px;
-            margin:0 auto;
+            width: 1190px;
+            margin: 0 auto;
         }
     }
+
+
 </style>

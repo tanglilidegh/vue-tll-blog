@@ -9,18 +9,67 @@
         </div>
         <div class="class-list">
             <ul>
-                <li class="pc"><span class="mask"></span><a href="#pc" >PC端</a></li>
-                <li class="mobile"><span class="mask"></span><a href="#mobile">移动端</a></li>
-                <li class="flat"><span class="mask"></span><a href="#flat">平面广告</a></li>
-                <li class="logo"><span class="mask"></span><a href="#logo">LOGO设计</a></li>
-                <li class="vi"><span class="mask"></span><a href="#vi" >VI设计</a></li>
-                <li class="package"><span class="mask"></span><a href="#package">包装设计</a></li>
+                <li class="pc hvr-float-shadow ">
+                    <span class="mask"></span>
+                    <figure class="effect-oscar">
+                        <img src="./images/pc.png" alt="">
+                        <figcaption>
+                            <a href="#pc">PC端</a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="mobile hvr-float-shadow">
+                    <span class="mask"></span>
+                    <figure class="effect-oscar">
+                        <img src="./images/mobile.png" alt="">
+                        <figcaption>
+                            <a href="#mobile">移动端</a>
+                        </figcaption>
+                    </figure>
+
+                </li>
+                <li class="flat hvr-float-shadow">
+                    <span class="mask"></span>
+                    <figure class="effect-oscar">
+                        <img src="./images/flat.png" alt="">
+                        <figcaption>
+                            <a href="#flat">平面广告</a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="logo hvr-float-shadow">
+                    <span class="mask"></span>
+                    <figure class="effect-oscar">
+                        <img src="./images/logo.png" alt="">
+                        <figcaption>
+                            <a href="#logo">LOGO</a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="vi hvr-float-shadow">
+                    <span class="mask"></span>
+                    <figure class="effect-oscar">
+                        <img src="./images/vi.png" alt="">
+                        <figcaption>
+                            <a href="#vi">VI设计</a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="package hvr-float-shadow">
+                    <span class="mask"></span>
+                    <figure class="effect-oscar">
+                        <img src="./images/package.png" alt="">
+                        <figcaption>
+                            <a href="#package">包装设计</a>
+                        </figcaption>
+                    </figure>
+                </li>
             </ul>
         </div>
         <div class="frontend-container">
             <h3 class="class-title" id="pc">PC端Web页面、网站、活动页、管理系统</h3>
             <ul>
-                <li>
+                <li class="hvr-glow">
                     <div class="design-img">
                         <img src="./images/design-img1.jpg" alt="frontend-img1">
                     </div>
@@ -30,7 +79,7 @@
                         <p class="issuing-time">发布时间：3小时前</p>
                     </div>
                 </li>
-                <li>
+                <li class="hvr-glow">
                     <div class="design-img"><img src="./images/design-img2.jpg" alt="frontend-img1"></div>
                     <div class="padding-15">
                         <h5><a href="javascript:void (0);">在vue2.0项目中一个简单的倒计时功能</a></h5>
@@ -38,7 +87,7 @@
                         <p class="issuing-time">发布时间：3小时前</p>
                     </div>
                 </li>
-                <li>
+                <li class="hvr-glow">
                     <div class="design-img"><img src="./images/design-img3.jpg" alt="frontend-img1"></div>
                     <div class="padding-15">
                         <h5><a href="javascript:void (0);">vue-router 2.0 常用基础知识点之router.push()</a></h5>
@@ -47,7 +96,7 @@
                         <p class="issuing-time">发布时间：3小时前</p>
                     </div>
                 </li>
-                <li>
+                <li class="hvr-glow">
                     <div class="design-img"><img src="./images/design-img4.jpg" alt="frontend-img1"></div>
                     <div class="padding-15">
                         <h5><a href="javascript:void (0);">vue-router 2.0 常用基础知识点之导航钩子</a></h5>
@@ -55,7 +104,7 @@
                         <p class="issuing-time">发布时间：3小时前</p>
                     </div>
                 </li>
-                <li>
+                <li class="hvr-glow">
                     <div class="design-img"><img src="./images/design-img5.jpg" alt="frontend-img1"></div>
                     <div class="padding-15">
                         <h5><a href="javascript:void (0);">非常有用的CSS代码片段</a></h5>
@@ -63,7 +112,7 @@
                         <p class="issuing-time">发布时间：3小时前</p>
                     </div>
                 </li>
-                <li>
+                <li class="hvr-glow">
                     <div class="design-img"><img src="./images/design-img1.jpg" alt="frontend-img1"></div>
                     <div class="padding-15">
                         <h5><a href="javascript:void (0);">常用网站链接</a></h5>
@@ -71,7 +120,7 @@
                         <p class="issuing-time">发布时间：3小时前</p>
                     </div>
                 </li>
-                <li>
+                <li class="hvr-glow">
                     <div class="design-img"><img src="./images/design-img2.jpg" alt="frontend-img1"></div>
                     <div class="padding-15">
                         <h5><a href="javascript:void (0);">vue 动态修改a标签的样式</a></h5>
@@ -79,7 +128,7 @@
                         <p class="issuing-time">发布时间：3小时前</p>
                     </div>
                 </li>
-                <li>
+                <li class="hvr-glow">
                     <div class="design-img"><img src="./images/design-img1.jpg" alt="frontend-img1"></div>
                     <div class="padding-15">
                         <h5><a href="javascript:void (0);">微信授权、登录、注册逻辑</a></h5>
@@ -87,7 +136,7 @@
                         <p class="issuing-time">发布时间：3小时前</p>
                     </div>
                 </li>
-                <li>
+                <li class="hvr-glow">
                     <div class="design-img"><img src="./images/design-img1.jpg" alt="frontend-img1"></div>
                     <div class="padding-15">
                         <h5><a href="javascript:void (0);">vue 动态修改a标签的样式</a></h5>
@@ -95,7 +144,7 @@
                         <p class="issuing-time">发布时间：3小时前</p>
                     </div>
                 </li>
-                <li>
+                <li class="hvr-glow">
                     <div class="design-img"><img src="./images/design-img2.jpg" alt="frontend-img1"></div>
                     <div class="padding-15">
                         <h5><a href="javascript:void (0);">在vue2.0项目中一个简单的倒计时功能</a></h5>
@@ -103,7 +152,7 @@
                         <p class="issuing-time">发布时间：3小时前</p>
                     </div>
                 </li>
-                <li>
+                <li class="hvr-glow">
                     <div class="design-img"><img src="./images/design-img3.jpg" alt="frontend-img1"></div>
                     <div class="padding-15">
                         <h5><a href="javascript:void (0);">vue-router 2.0 常用基础知识点之router.push()</a></h5>
@@ -112,7 +161,7 @@
                         <p class="issuing-time">发布时间：3小时前</p>
                     </div>
                 </li>
-                <li>
+                <li class="hvr-glow">
                     <div class="design-img"><img src="./images/design-img4.jpg" alt="frontend-img1"></div>
                     <div class="padding-15">
                         <h5><a href="javascript:void (0);">vue-router 2.0 常用基础知识点之导航钩子</a></h5>
@@ -120,7 +169,7 @@
                         <p class="issuing-time">发布时间：3小时前</p>
                     </div>
                 </li>
-                <li>
+                <li class="hvr-glow">
                     <div class="design-img"><img src="./images/design-img5.jpg" alt="frontend-img1"></div>
                     <div class="padding-15">
                         <h5><a href="javascript:void (0);">非常有用的CSS代码片段</a></h5>
@@ -128,7 +177,7 @@
                         <p class="issuing-time">发布时间：3小时前</p>
                     </div>
                 </li>
-                <li>
+                <li class="hvr-glow">
                     <div class="design-img"><img src="./images/design-img1.jpg" alt="frontend-img1"></div>
                     <div class="padding-15">
                         <h5><a href="javascript:void (0);">常用网站链接</a></h5>
@@ -136,7 +185,7 @@
                         <p class="issuing-time">发布时间：3小时前</p>
                     </div>
                 </li>
-                <li>
+                <li class="hvr-glow">
                     <div class="design-img"><img src="./images/design-img2.jpg" alt="frontend-img1"></div>
                     <div class="padding-15">
                         <h5><a href="javascript:void (0);">vue 动态修改a标签的样式</a></h5>
@@ -144,7 +193,7 @@
                         <p class="issuing-time">发布时间：3小时前</p>
                     </div>
                 </li>
-                <li>
+                <li class="hvr-glow">
                     <div class="design-img"><img src="./images/design-img1.jpg" alt="frontend-img1"></div>
                     <div class="padding-15">
                         <h5><a href="javascript:void (0);">微信授权、登录、注册逻辑</a></h5>
@@ -152,7 +201,7 @@
                         <p class="issuing-time">发布时间：3小时前</p>
                     </div>
                 </li>
-                <li>
+                <li class="hvr-glow">
                     <div class="design-img"><img src="./images/design-img1.jpg" alt="frontend-img1"></div>
                     <div class="padding-15">
                         <h5><a href="javascript:void (0);">vue 动态修改a标签的样式</a></h5>
@@ -160,7 +209,7 @@
                         <p class="issuing-time">发布时间：3小时前</p>
                     </div>
                 </li>
-                <li>
+                <li class="hvr-glow">
                     <div class="design-img"><img src="./images/design-img2.jpg" alt="frontend-img1"></div>
                     <div class="padding-15">
                         <h5><a href="javascript:void (0);">在vue2.0项目中一个简单的倒计时功能</a></h5>
@@ -168,7 +217,7 @@
                         <p class="issuing-time">发布时间：3小时前</p>
                     </div>
                 </li>
-                <li>
+                <li class="hvr-glow">
                     <div class="design-img"><img src="./images/design-img3.jpg" alt="frontend-img1"></div>
                     <div class="padding-15">
                         <h5><a href="javascript:void (0);">vue-router 2.0 常用基础知识点之router.push()</a></h5>
@@ -177,7 +226,7 @@
                         <p class="issuing-time">发布时间：3小时前</p>
                     </div>
                 </li>
-                <li>
+                <li class="hvr-glow">
                     <div class="design-img"><img src="./images/design-img4.jpg" alt="frontend-img1"></div>
                     <div class="padding-15">
                         <h5><a href="javascript:void (0);">vue-router 2.0 常用基础知识点之导航钩子</a></h5>
@@ -185,7 +234,7 @@
                         <p class="issuing-time">发布时间：3小时前</p>
                     </div>
                 </li>
-                <li>
+                <li class="hvr-glow">
                     <div class="design-img"><img src="./images/design-img5.jpg" alt="frontend-img1"></div>
                     <div class="padding-15">
                         <h5><a href="javascript:void (0);">非常有用的CSS代码片段</a></h5>
@@ -193,7 +242,7 @@
                         <p class="issuing-time">发布时间：3小时前</p>
                     </div>
                 </li>
-                <li>
+                <li class="hvr-glow">
                     <div class="design-img"><img src="./images/design-img1.jpg" alt="frontend-img1"></div>
                     <div class="padding-15">
                         <h5><a href="javascript:void (0);">常用网站链接</a></h5>
@@ -201,7 +250,7 @@
                         <p class="issuing-time">发布时间：3小时前</p>
                     </div>
                 </li>
-                <li>
+                <li class="hvr-glow">
                     <div class="design-img"><img src="./images/design-img2.jpg" alt="frontend-img1"></div>
                     <div class="padding-15">
                         <h5><a href="javascript:void (0);">vue 动态修改a标签的样式</a></h5>
@@ -209,7 +258,7 @@
                         <p class="issuing-time">发布时间：3小时前</p>
                     </div>
                 </li>
-                <li>
+                <li class="hvr-glow">
                     <div class="design-img"><img src="./images/design-img1.jpg" alt="frontend-img1"></div>
                     <div class="padding-15">
                         <h5><a href="javascript:void (0);">微信授权、登录、注册逻辑</a></h5>
@@ -722,7 +771,7 @@
     import 'common/css/reset.css';
     import VFooter from 'components/common/footer';
     import VHeader from 'components/common/header';
-    import { backToTop } from './../../common/js/gototop';
+    import {backToTop} from './../../common/js/gototop';
     export default {
         name: 'app',
         components: {
@@ -735,12 +784,14 @@
 </script>
 
 <style lang="scss" rel="stylesheet/scss" scoped>
+
     @import "./../../common/css/common";
 
     .class-list {
         margin-top: 20px;
-        ul li{
+        ul li {
             position: relative;
+            margin: 0 3px;
             display: inline-block;
             width: 176px;
             height: 105px;
@@ -759,10 +810,10 @@
             color: #fff;
             font-size: 24px;
             font-weight: bold;
-            border-radius: 8px;
+            border-radius: 10px;
             z-index: 2;
         }
-        .mask{
+        .mask {
             content: '';
             position: absolute;
             left: 0;
@@ -773,32 +824,8 @@
             width: 100%;
             height: 100%;
             z-index: 1;
-            background: rgba(0,0,0,.4);
+            background: rgba(0, 0, 0, .4);
             border-radius: 8px;
-        }
-        .pc{
-            background: url("./images/pc.png") no-repeat center top;
-            background-size: 100%;
-        }
-        .mobile{
-            background: url("./images/mobile.png") no-repeat center top;
-            background-size: 100%;
-        }
-        .flat{
-            background: url("./images/flat.png") no-repeat center top;
-            background-size: 100%;
-        }
-        .logo{
-            background: url("./images/logo.png") no-repeat center top;
-            background-size: 100%;
-        }
-        .vi{
-            background: url("./images/vi.png") no-repeat center top;
-            background-size: 100%;
-        }
-        .package{
-            background: url("./images/package.png") no-repeat center top;
-            background-size: 100%;
         }
     }
 
@@ -870,19 +897,148 @@
         }
     }
 
-    .backToTop{
-        background:url(./../../common/img/gototop.jpg) no-repeat left top;
-        position:fixed;
-        right:5px;
-        bottom:40px;
-        width:53px;
-        height:53px;
+    .backToTop {
+        background: url(./../../common/img/gototop.jpg) no-repeat left top;
+        position: fixed;
+        right: 5px;
+        bottom: 40px;
+        width: 53px;
+        height: 53px;
 
     }
-    .backToTop:hover{
+
+    .backToTop:hover {
         cursor: pointer;
-        background:url(./../../common/img/gototop.jpg) no-repeat right top;
+        background: url(./../../common/img/gototop.jpg) no-repeat right top;
 
     }
 
+    figure.effect-oscar {
+        background: -webkit-linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
+        background: linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
+        border-radius: 10px;
+    }
+
+    figure.effect-oscar img {
+        opacity: 0.9;
+        -webkit-transition: opacity 0.35s;
+        transition: opacity 0.35s;
+    }
+
+    figure.effect-oscar figcaption {
+        background-color: rgba(58, 52, 42, 0.7);
+        -webkit-transition: background-color 0.35s;
+        transition: background-color 0.35s;
+    }
+
+    figure.effect-oscar figcaption::before {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        bottom: 30px;
+        left: 30px;
+        border: 1px solid #fff;
+        content: '';
+    }
+
+    figure.effect-oscar h2 {
+        -webkit-transition: -webkit-transform 0.35s;
+        transition: transform 0.35s;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+
+    figure.effect-oscar figcaption::before,
+    figure.effect-oscar p {
+        opacity: 0;
+        -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+        transition: opacity 0.35s, transform 0.35s;
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+
+    figure.effect-oscar:hover h2 {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    figure.effect-oscar:hover figcaption::before,
+    figure.effect-oscar:hover p {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    figure.effect-oscar:hover figcaption {
+        background-color: rgba(58, 52, 42, 0);
+    }
+
+    figure.effect-oscar:hover img {
+        opacity: 0.4;
+    }
+
+
+    /* Glow */
+    .hvr-glow {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        box-shadow: 0 0 2px rgba(106, 106, 106, 0.1);
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow;
+        transition-property: box-shadow;
+    }
+
+    .hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
+        box-shadow: 0 0 15px 1px rgb(168, 168, 168);
+    }
+
+    .hvr-float-shadow {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -moz-osx-font-smoothing: grayscale;
+        position: relative;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+    }
+
+    .hvr-float-shadow:before {
+        pointer-events: none;
+        position: absolute;
+        z-index: -1;
+        content: '';
+        top: 100%;
+        left: 5%;
+        height: 10px;
+        width: 90%;
+        opacity: 0;
+        background: -webkit-radial-gradient(ellipse at center, rgba(163, 163, 163, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+        background: radial-gradient(ellipse at center, rgba(132, 131, 131, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+        /* W3C */
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: transform, opacity;
+        transition-property: transform, opacity;
+    }
+
+    .hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+        /* move the element up by 5px */
+    }
+
+    .hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
+        opacity: 1;
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px);
+        /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+    }
 </style>
