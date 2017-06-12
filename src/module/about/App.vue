@@ -1,6 +1,42 @@
 <template>
     <div id="app" class="w100 about-bg">
         <v-header :isActive=4></v-header>
+        <div class="about-me">
+            <div class="my-photo">
+                <img src="./../../common/img/me.jpg" alt="">
+            </div>
+            <div class="intro">
+                <h3>基本信息</h3>
+                <div class="text">
+                    <p><strong>姓名：</strong><span>汤利利</span></p>
+                    <p><strong>职位：</strong><span>前端开发工程师、UI设计师</span></p>
+                    <p><strong>性别：</strong><span>女</span></p>
+                    <p><strong>兴趣爱好：</strong><span>看书、画画、看电影、旅游</span></p>
+                    <p><strong>现居地：</strong><span>北京-海淀</span></p>
+                    <p><strong>E-mail：</strong><span>tly04059@163.com</span></p>
+                </div>
+               <div class="er-code">
+                   <p>微信：</p>
+                   <img src="./../../common/img/er-code.jpg" alt="">
+               </div>
+            </div>
+            <div class="keywords">
+                <h3>自定义标签</h3>
+                <ul>
+                    <li>责任心强</li>
+                    <li>积极好学</li>
+                    <li>求知欲强</li>
+                    <li>学习能力强</li>
+                    <li>团队荣誉感强</li>
+                    <li>性格外向</li>
+                    <li>热情</li>
+                    <li>表达能力强</li>
+                    <li>诚实守信</li>
+                    <li>没有套路</li>
+                </ul>
+            </div>
+        </div>
+        <circle-css color="#3498db" width=120 font-size=48 pv=90 bold=8 text-bg-color='#f0f0f0'></circle-css>
         <div class="container">
             <div class="technology-list">
                 <ul>
@@ -173,17 +209,118 @@
     import 'common/css/reset.css';
     import VFooter from 'components/common/footer';
     import VHeader from 'components/common/header';
+    import CssCircle from './../../components/common/css-circle.vue'
 
     export default {
         name: 'app',
+        data(){
+            return{}
+        },
+        mounted: function () {
+        },
         components: {
-            VFooter, VHeader
+            VFooter, VHeader, circleCss: CssCircle
         }
     }
 </script>
 
 <style lang="scss" rel="stylesheet/scss" scoped>
     @import "./../../common/css/common";
+    .about-me {
+        width: 60%;
+        min-width: 1000px;
+        margin: 50px auto 50px;
+        .my-photo,.intro,.keywords{
+            display: inline-block;
+            font-size: 0;
+            vertical-align: top;
+            min-height: 300px;
+        }
+        .my-photo{
+            width: 29.2%;
+            img{
+                width: 300px;
+                height: 300px;
+                border-radius: 50%;
+                border: 10px solid rgba(235, 235, 235, 0.7);
+            }
+        }
+        .intro,.keywords{
+            h3{
+                margin-bottom: 5px;
+                color: #474747;
+                font-size: 18px;
+                text-align: left;
+                /*line-height: 3;*/
+            }
+        }
+        .intro{
+            margin-right: 1%;
+            width: 39%;
+            padding: 20px;
+            background: rgba(244, 244, 244, 0.5);
+            border-radius: 10px;
+            .text,.er-code{
+                display: inline-block;
+                font-size: 0;
+                vertical-align: top;
+            }
+            .text{
+                width: 75%;
+                text-align: left;
+                p{
+                    margin: 8px 0;
+                    strong{
+                        display: inline-block;
+                        font-weight: normal;
+                        width: 80px;
+                    }
+                    span{
+                        display: inline-block;
+                        padding: 2px 10px;
+                        background: rgba(235, 235, 235, 0.7);
+                        border-radius: 5px;
+                    }
+                }
+            }
+            .er-code{
+                width: 25%;
+                p{
+                    text-align: center;
+                    line-height: 3;
+                }
+                img{
+                    width: 100px;
+                }
+            }
+            p{
+                font-size: 16px;
+                color: #999;
+
+
+            }
+        }
+        .keywords{
+            width: 30%;
+            padding: 20px;
+            text-align: left;
+            background: rgba(244, 244, 244, 0.5);
+            border-radius: 10px;
+            ul{
+                font-size: 0;
+                li{
+                    margin: 6px;
+                    padding: 2px 10px;
+                    display: inline-block;
+                    font-size: 16px;
+                    line-height: 2;
+                    color: #8d8d8d;
+                    background: rgba(235, 235, 235, 0.7);
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
     .container{
         position: relative;
         margin: 0 auto 40px;
