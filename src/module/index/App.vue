@@ -794,6 +794,9 @@
     import {Navbar, TabItem} from 'mint-ui';
     Vue.component(Navbar.name, Navbar);
     Vue.component(TabItem.name, TabItem);
+    import {Indicator} from 'mint-ui';
+
+
     import AV from 'leancloud-storage';
 
     let APP_ID = 'NIBvX6tQOTPhLV3tY00uPii6-gzGzoHsz';
@@ -892,7 +895,19 @@
             }, function (error) {
                 // 失败了
             });
+
+
             goToTop();
+
+
+            this.$nextTick(function () {
+                Indicator.open({
+                    text: '加载中...',
+                    spinnerType: 'fading-circle'
+
+                });
+                setTimeout(() => Indicator.close(), 2000);
+            });
         },
         components: {
             Hello, VFooter, VHeader
@@ -900,21 +915,25 @@
     }
 </script>
 <style>
-    .mint-navbar .mint-tab-item.is-selected {
-        border-bottom: 3px solid #0b6d99 !important;
+    .mint-navbar {
         color: #0b6d99 !important;
-        margin-bottom: 0 !important;
     }
+
     .mint-navbar {
         padding: 0 30%;
-        color: #0b6d99 !important;
         background-image: linear-gradient(#effafa 0, white 100%);
     }
-    .mint-navbar .mint-tab-item .mint-tab-item-label {
-        font-size: 18px !important;;
-    }
-    .mint-tab-container-item{
+
+    .mint-tab-container-item {
         background: #f4f4f4;
+    }
+
+    .mint-navbar .mint-tab-item .mint-tab-item-label {
+        font-size: 18px !important;
+    }
+    .mint-indicator-wrapper {
+        background: rgba(11, 109, 153, 0.7) !important;
+
     }
 </style>
 <style lang="scss" rel="stylesheet/scss" scoped>

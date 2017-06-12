@@ -155,21 +155,40 @@
     import 'common/css/reset.css';
     import VFooter from 'components/common/footer';
     import VHeader from 'components/common/header';
+    import Vue from 'vue';
+    import {Indicator} from 'mint-ui';
+    export default {
+        name: 'app',
+        components: {
+            VFooter, VHeader
+        },
+        mounted() {
+            this.$nextTick(function () {
+                Indicator.open({
+                    text: '加载中...',
+                    spinnerType: 'fading-circle'
 
-  export default {
-    name: 'app',
-    components: {
-        VFooter, VHeader
+                });
+                setTimeout(() => Indicator.close(), 2000);
+            });
+        },
     }
-  }
 </script>
 
+<style>
+    .mint-indicator-wrapper {
+        background: rgba(11, 109, 153, 0.7) !important;
+
+    }
+</style>
 <style lang="scss" rel="stylesheet/scss" scoped>
     @import "./../../common/css/common";
+
     .live {
         padding-bottom: 50px;
         background: #f4f4f6;
     }
+
     .live-container {
         width: 85%;
         margin: 20px auto 0;
@@ -190,20 +209,20 @@
             min-height: 100px;
             text-align: left;
             background: #fff;
-            box-shadow:  1px 3px 0 1px #ddd;
+            box-shadow: 1px 3px 0 1px #ddd;
             img {
                 width: 100%;
                 border-radius: 8px;
             }
         }
-        .data-time{
+        .data-time {
             position: relative;
             margin-top: 10px;
             padding-top: 10px;
             /*line-height: 2;*/
             color: #b0b0b0;
         }
-        .data-time::after{
+        .data-time::after {
             content: '';
             position: absolute;
             left: 0;

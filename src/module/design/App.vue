@@ -923,6 +923,7 @@
         opacity: 0.9;
         -webkit-transition: opacity 0.35s;
         transition: opacity 0.35s;
+        border-radius: 10px;
     }
 
     figure.effect-oscar figcaption {
