@@ -26,6 +26,11 @@ a.more {
 .padding-15{
     padding: 0 15px 15px;
 }
+.word-justify{
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    text-align: justify;
+}
 .main-wrapper {
     background: #effafa url("./../../common/img/header-bg.png") no-repeat center top;
     background-size: 100%;

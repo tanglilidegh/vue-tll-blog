@@ -791,10 +791,10 @@
 <script>
     import {goToTop} from './../../common/js/gototop';
     import Vue from 'vue';
-    import {Navbar, TabItem} from 'mint-ui';
+    import { Navbar, TabItem } from 'mint-ui';
     Vue.component(Navbar.name, Navbar);
     Vue.component(TabItem.name, TabItem);
-    import {Indicator} from 'mint-ui';
+    import { Indicator } from 'mint-ui';
 
 
     import AV from 'leancloud-storage';
