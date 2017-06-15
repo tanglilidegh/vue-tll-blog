@@ -488,75 +488,93 @@
                         <div class="triangle-left-gray triangle-right-bottom"></div>
                         <div class="info h145"></div>
                         <div class="info h145 text-right">
-                            <h3 class="design-class">UI</h3>
-                            <p class="company">银丰科技有限公司官网设计</p>
-                            <p class="time">2015-10-15 8月</p>
-                            <p class="address">浙江 杭州 动漫之都 1003</p>
+                            <a href="javascript:void(0);">
+                                <h3 class="design-class">UI</h3>
+                                <p class="company">银丰科技有限公司官网设计</p>
+                                <p class="time">2015-10-15 8月</p>
+                                <p class="address">浙江 杭州 动漫之都 1003</p>
+                            </a>
                         </div>
                     </li>
                     <li>
                         <div class="triangle-left-white triangle-left-bottom"></div>
-                        <a href="javascript:void (0);" class="design-photo"><img src="./images/design-img1.jpg" alt="design-img1"></a>
+                        <a href="javascript:void (0);" class="design-photo"><img src="./images/design-img1.jpg"
+                                                                                 alt="design-img1"></a>
                     </li>
                     <li>
                         <div class="triangle-right-white triangle-right-top"></div>
-                        <a href="javascript:void (0);" class="design-photo"><img src="./images/design-img2.jpg" alt="design-img1"></a>
+                        <a href="javascript:void (0);" class="design-photo"><img src="./images/design-img2.jpg"
+                                                                                 alt="design-img1"></a>
                     </li>
                     <li>
                         <div class="triangle-right-gray triangle-left-top"></div>
                         <div class="triangle-left-gray triangle-right-bottom"></div>
                         <div class="info h145 text-left border-bottom-3">
-                            <h3 class="design-class">UI</h3>
-                            <p class="company">银丰科技有限公司官网设计</p>
-                            <p class="time">2015-10-15 8月</p>
-                            <p class="address">浙江 杭州 动漫之都 1003</p>
+                            <a href="javascript:void(0);">
+                                <h3 class="design-class">UI</h3>
+                                <p class="company">银丰科技有限公司官网设计</p>
+                                <p class="time">2015-10-15 8月</p>
+                                <p class="address">浙江 杭州 动漫之都 1003</p>
+                            </a>
                         </div>
                         <div class="info h145 text-right border-top-3">
-                            <h3 class="design-class">App</h3>
-                            <p class="company">银丰科技有限公司官网设计</p>
-                            <p class="time">2015-10-15 8月</p>
-                            <p class="address">浙江 杭州 动漫之都 1003</p>
+                            <a href="javascript:void(0);">
+                                <h3 class="design-class">App</h3>
+                                <p class="company">银丰科技有限公司官网设计</p>
+                                <p class="time">2015-10-15 8月</p>
+                                <p class="address">浙江 杭州 动漫之都 1003</p>
+                            </a>
                         </div>
                     </li>
                     <li>
                         <div class="triangle-left-white triangle-left-bottom"></div>
-                        <a href="javascript:void (0);" class="design-photo"><img src="./images/design-img3.jpg" alt="design-img1"></a>
+                        <a href="javascript:void (0);" class="design-photo"><img src="./images/design-img3.jpg"
+                                                                                 alt="design-img1"></a>
                     </li>
                     <li>
                         <div class="triangle-right-white triangle-right-top"></div>
-                        <a href="javascript:void (0);" class="design-photo"><img src="./images/design-img4.jpg" alt="design-img1"></a>
+                        <a href="javascript:void (0);" class="design-photo"><img src="./images/design-img4.jpg"
+                                                                                 alt="design-img1"></a>
                     </li>
                     <li>
                         <div class="triangle-right-gray triangle-left-top"></div>
                         <div class="triangle-left-gray triangle-right-bottom"></div>
                         <div class="info h145 text-left border-bottom-3">
-                            <h3 class="design-class">网站</h3>
-                            <p class="company">银丰科技有限公司官网设计</p>
-                            <p class="time">2015-10-15 8月</p>
-                            <p class="address">浙江 杭州 动漫之都 1003</p>
+                            <a href="javascript:void(0);">
+                                <h3 class="design-class">网站</h3>
+                                <p class="company">银丰科技有限公司官网设计</p>
+                                <p class="time">2015-10-15 8月</p>
+                                <p class="address">浙江 杭州 动漫之都 1003</p>
+                            </a>
                         </div>
                         <div class="info h145 text-right border-top-3">
-                            <h3 class="design-class">UI</h3>
-                            <p class="company">银丰科技有限公司官网设计</p>
-                            <p class="time">2015-10-15 8月</p>
-                            <p class="address">浙江 杭州 动漫之都 1003</p>
+                            <a href="javascript:void(0);">
+                                <h3 class="design-class">UI</h3>
+                                <p class="company">银丰科技有限公司官网设计</p>
+                                <p class="time">2015-10-15 8月</p>
+                                <p class="address">浙江 杭州 动漫之都 1003</p>
+                            </a>
                         </div>
                     </li>
                     <li>
                         <div class="triangle-left-white triangle-left-bottom"></div>
-                        <a href="javascript:void (0);" class="design-photo"><img src="./images/design-img5.jpg" alt="design-img1"></a>
+                        <a href="javascript:void (0);" class="design-photo"><img src="./images/design-img5.jpg"
+                                                                                 alt="design-img1"></a>
                     </li>
                     <li>
                         <div class="triangle-right-white triangle-right-top"></div>
-                        <a href="javascript:void (0);" class="design-photo"><img src="./images/design-img1.jpg" alt="design-img1"></a>
+                        <a href="javascript:void (0);" class="design-photo"><img src="./images/design-img1.jpg"
+                                                                                 alt="design-img1"></a>
                     </li>
                     <li>
                         <div class="triangle-right-gray triangle-left-top"></div>
                         <div class="info h145 text-left">
-                            <h3 class="design-class">Logo</h3>
-                            <p class="company">银丰科技有限公司官网设计</p>
-                            <p class="time">2015-10-15 8月</p>
-                            <p class="address">浙江 杭州 动漫之都 1003</p>
+                            <a href="javascript:void(0);">
+                                <h3 class="design-class">Logo</h3>
+                                <p class="company">银丰科技有限公司官网设计</p>
+                                <p class="time">2015-10-15 8月</p>
+                                <p class="address">浙江 杭州 动漫之都 1003</p>
+                            </a>
                         </div>
                         <div class="info h145">
                         </div>
@@ -565,39 +583,48 @@
                         <div class="triangle-left-gray triangle-right-bottom"></div>
                         <div class="info h145"></div>
                         <div class="info h145 text-right">
-                            <h3 class="design-class">UI</h3>
-                            <p class="company">银丰科技有限公司官网设计</p>
-                            <p class="time">2015-10-15 8月</p>
-                            <p class="address">浙江 杭州 动漫之都 1003</p>
+                            <a href="javascript:void(0);">
+                                <h3 class="design-class">UI</h3>
+                                <p class="company">银丰科技有限公司官网设计</p>
+                                <p class="time">2015-10-15 8月</p>
+                                <p class="address">浙江 杭州 动漫之都 1003</p>
+                            </a>
                         </div>
                     </li>
                     <li>
                         <div class="triangle-left-white triangle-left-bottom"></div>
-                        <a href="javascript:void (0);" class="design-photo"><img src="./images/design-img2.jpg" alt="design-img1"></a>
+                        <a href="javascript:void (0);" class="design-photo"><img src="./images/design-img2.jpg"
+                                                                                 alt="design-img1"></a>
                     </li>
                     <li>
                         <div class="triangle-right-white triangle-right-top"></div>
-                        <a href="javascript:void (0);" class="design-photo"><img src="./images/design-img3.jpg" alt="design-img1"></a>
+                        <a href="javascript:void (0);" class="design-photo"><img src="./images/design-img3.jpg"
+                                                                                 alt="design-img1"></a>
                     </li>
                     <li>
                         <div class="triangle-right-gray triangle-left-top"></div>
                         <div class="triangle-left-gray triangle-right-bottom"></div>
                         <div class="info h145 text-left border-bottom-3">
-                            <h3 class="design-class">UI</h3>
-                            <p class="company">银丰科技有限公司官网设计</p>
-                            <p class="time">2015-10-15 8月</p>
-                            <p class="address">浙江 杭州 动漫之都 1003</p>
+                            <a href="javascript:void(0);">
+                                <h3 class="design-class">UI</h3>
+                                <p class="company">银丰科技有限公司官网设计</p>
+                                <p class="time">2015-10-15 8月</p>
+                                <p class="address">浙江 杭州 动漫之都 1003</p>
+                            </a>
                         </div>
                         <div class="info h145 text-right border-top-3">
-                            <h3 class="design-class">包装设计</h3>
-                            <p class="company">银丰科技有限公司官网设计</p>
-                            <p class="time">2015-10-15 8月</p>
-                            <p class="address">浙江 杭州 动漫之都 1003</p>
+                            <a href="javascript:void(0);">
+                                <h3 class="design-class">包装设计</h3>
+                                <p class="company">银丰科技有限公司官网设计</p>
+                                <p class="time">2015-10-15 8月</p>
+                                <p class="address">浙江 杭州 动漫之都 1003</p>
+                            </a>
                         </div>
                     </li>
                     <li>
                         <div class="triangle-left-white triangle-left-bottom"></div>
-                        <a href="javascript:void (0);" class="design-photo"><img src="./images/design-img4.jpg" alt="design-img1"></a>
+                        <a href="javascript:void (0);" class="design-photo"><img src="./images/design-img4.jpg"
+                                                                                 alt="design-img1"></a>
                     </li>
                 </ul>
             </div>
@@ -808,13 +835,13 @@
 <script>
     import {goToTop} from './../../common/js/gototop';
     import Vue from 'vue';
-    import { Navbar, TabItem } from 'mint-ui';
-    import { Swipe, SwipeItem } from 'mint-ui';
+    import {Navbar, TabItem} from 'mint-ui';
+    import {Swipe, SwipeItem} from 'mint-ui';
     Vue.component(Swipe.name, Swipe);
     Vue.component(SwipeItem.name, SwipeItem);
     Vue.component(Navbar.name, Navbar);
     Vue.component(TabItem.name, TabItem);
-    import { Indicator } from 'mint-ui';
+    import {Indicator} from 'mint-ui';
 
 
     import AV from 'leancloud-storage';
@@ -951,6 +978,7 @@
     .mint-navbar .mint-tab-item .mint-tab-item-label {
         font-size: 18px !important;
     }
+
     .mint-indicator-wrapper {
         background: rgba(11, 109, 153, 0.7) !important;
 
@@ -979,21 +1007,20 @@
             height: 3px;
             background: #0b6d99;
         }
-        .min-swipe{
+        .min-swipe {
             width: 100%;
             height: 326px;
             display: block;
             overflow: hidden;
-            &:first-child{
+            &:first-child {
                 background: #effafa;
             }
-            img{
+            img {
                 width: 100%;
                 height: auto;
                 overflow: hidden;
             }
         }
-
 
         .frontend {
             padding-bottom: 30px;
@@ -1085,10 +1112,10 @@
                 }
                 vertical-align: top;
 
-                .design-photo{
+                .design-photo {
                     opacity: 0.7;
                 }
-                .design-photo:hover{
+                .design-photo:hover {
                     opacity: 1;
 
                 }
@@ -1167,6 +1194,9 @@
                 padding: 20px;
                 color: #fff;
                 background: #fafafa;
+                a{
+                    display: inline-block;
+                }
                 .design-class {
                     display: inline-block;
                     width: 160px;
@@ -1449,7 +1479,6 @@
             }
 
         }
-
 
     }
 
