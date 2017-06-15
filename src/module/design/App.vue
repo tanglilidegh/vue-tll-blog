@@ -898,148 +898,19 @@
     }
 
     .backToTop {
-        background: url(./../../common/img/gototop.jpg) no-repeat left top;
+        background: url(./../../common/img/backtotop.jpg) no-repeat left top;
         position: fixed;
-        right: 5px;
+        right: 40px;
         bottom: 40px;
-        width: 53px;
-        height: 53px;
-
+        width: 40px;
+        height: 40px;
     }
 
     .backToTop:hover {
         cursor: pointer;
-        background: url(./../../common/img/gototop.jpg) no-repeat right top;
-
-    }
-
-    figure.effect-oscar {
-        background: -webkit-linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
-        background: linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
-        border-radius: 10px;
-    }
-
-    figure.effect-oscar img {
-        opacity: 0.9;
-        -webkit-transition: opacity 0.35s;
-        transition: opacity 0.35s;
-        border-radius: 10px;
-    }
-
-    figure.effect-oscar figcaption {
-        background-color: rgba(58, 52, 42, 0.7);
-        -webkit-transition: background-color 0.35s;
-        transition: background-color 0.35s;
-    }
-
-    figure.effect-oscar figcaption::before {
-        position: absolute;
-        top: 30px;
-        right: 30px;
-        bottom: 30px;
-        left: 30px;
-        border: 1px solid #fff;
-        content: '';
-    }
-
-    figure.effect-oscar h2 {
-        -webkit-transition: -webkit-transform 0.35s;
-        transition: transform 0.35s;
-        -webkit-transform: translate3d(0, 100%, 0);
-        transform: translate3d(0, 100%, 0);
-    }
-
-    figure.effect-oscar figcaption::before,
-    figure.effect-oscar p {
-        opacity: 0;
-        -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-        transition: opacity 0.35s, transform 0.35s;
-        -webkit-transform: scale(0);
-        transform: scale(0);
-    }
-
-    figure.effect-oscar:hover h2 {
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-    }
-
-    figure.effect-oscar:hover figcaption::before,
-    figure.effect-oscar:hover p {
-        opacity: 1;
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
-
-    figure.effect-oscar:hover figcaption {
-        background-color: rgba(58, 52, 42, 0);
-    }
-
-    figure.effect-oscar:hover img {
-        opacity: 0.4;
+        background: url(./../../common/img/backtotop.jpg) no-repeat right top;
     }
 
 
-    /* Glow */
-    .hvr-glow {
-        -webkit-transform: translateZ(0);
-        transform: translateZ(0);
-        box-shadow: 0 0 2px rgba(106, 106, 106, 0.1);
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-        -moz-osx-font-smoothing: grayscale;
-        -webkit-transition-duration: 0.3s;
-        transition-duration: 0.3s;
-        -webkit-transition-property: box-shadow;
-        transition-property: box-shadow;
-    }
 
-    .hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
-        box-shadow: 0 0 15px 1px rgb(168, 168, 168);
-    }
-
-    .hvr-float-shadow {
-        -webkit-transform: translateZ(0);
-        transform: translateZ(0);
-        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-        -moz-osx-font-smoothing: grayscale;
-        position: relative;
-        -webkit-transition-duration: 0.3s;
-        transition-duration: 0.3s;
-        -webkit-transition-property: transform;
-        transition-property: transform;
-    }
-
-    .hvr-float-shadow:before {
-        pointer-events: none;
-        position: absolute;
-        z-index: -1;
-        content: '';
-        top: 100%;
-        left: 5%;
-        height: 10px;
-        width: 90%;
-        opacity: 0;
-        background: -webkit-radial-gradient(ellipse at center, rgba(163, 163, 163, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
-        background: radial-gradient(ellipse at center, rgba(132, 131, 131, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
-        /* W3C */
-        -webkit-transition-duration: 0.3s;
-        transition-duration: 0.3s;
-        -webkit-transition-property: transform, opacity;
-        transition-property: transform, opacity;
-    }
-
-    .hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
-        -webkit-transform: translateY(-5px);
-        transform: translateY(-5px);
-        /* move the element up by 5px */
-    }
-
-    .hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
-        opacity: 1;
-        -webkit-transform: translateY(5px);
-        transform: translateY(5px);
-        /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
-    }
 </style>

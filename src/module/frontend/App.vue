@@ -408,11 +408,13 @@
             </div>
         </div>
         <v-footer></v-footer>
+        <a href="javascript:void(0);" id="btn" title="回到顶部"></a>
     </div>
 </template>
 
 <script>
     import 'common/css/reset.css';
+    import {goToTop} from './../../common/js/gototop';
     import VFooter from 'components/common/footer';
     import VHeader from 'components/common/header';
     import Vue from 'vue';
@@ -425,6 +427,9 @@
             return {
                 selected: '1',
             }
+        },
+        mounted() {
+            goToTop();
         },
         components: {
             VFooter, VHeader

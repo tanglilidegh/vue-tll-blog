@@ -1,6 +1,20 @@
 <template>
     <div id="app" class="main-wrapper w100">
         <v-header :isActive=0></v-header>
+        <mt-swipe :auto="4000" class="min-swipe">
+            <mt-swipe-item>
+                <!--<img src="./images/header-bg.png" alt="">-->
+            </mt-swipe-item>
+            <mt-swipe-item>
+                <img src="./images/bg.jpg" alt="">
+            </mt-swipe-item>
+            <mt-swipe-item>
+                <img src="./images/bg2.jpg" alt="">
+            </mt-swipe-item>
+            <mt-swipe-item>
+                <img src="./images/bg1.jpg" alt="">
+            </mt-swipe-item>
+        </mt-swipe>
         <!--
         <div class="frontend margin-top-200">
             <ul class="frontend-list">
@@ -189,7 +203,7 @@
             <a href="frontend.html" class="more">查看更多>></a>
         </div>
     -->
-        <mt-navbar class="page-part margin-top-200" v-model="selected">
+        <mt-navbar class="page-part" v-model="selected">
             <mt-tab-item id="1">HTML</mt-tab-item>
             <mt-tab-item id="2">CSS</mt-tab-item>
             <mt-tab-item id="3">JS</mt-tab-item>
@@ -202,56 +216,56 @@
             <mt-tab-container-item id="1">
                 <div class="frontend-container">
                     <ul>
-                        <li>
+                        <li class="hvr-box-shadow-outset">
                             <img src="./images/frontend-img1.jpg" alt="frontend-img1">
                             <h5><a href="javascript:void (0);">vue 动态修改a标签的样式</a></h5>
                             <p>公司要做一个类似今日头条的项目，用前后端分离的方式做成HTML5页面，先在微信中运行，领导...</p>
                             <p class="issuing-time">发布时间：3小时前</p>
 
                         </li>
-                        <li>
+                        <li class="hvr-box-shadow-outset">
                             <img src="./images/frontend-img2.jpg" alt="frontend-img1">
                             <h5><a href="javascript:void (0);">在vue2.0项目中一个简单的倒计时功能</a></h5>
                             <p>公司3月底有一个运动会项目，项目中有一项是平板支撑，参加比赛的人会通过扫二维的方式进入到报名页面，我们的页面会...</p>
                             <p class="issuing-time">发布时间：3小时前</p>
 
                         </li>
-                        <li>
+                        <li class="hvr-box-shadow-outset">
                             <img src="./images/frontend-img3.jpg" alt="frontend-img1">
                             <h5><a href="javascript:void (0);">vue-router 2.0 常用基础知识点之router.push()</a></h5>
                             <p>router.push(location) 除了使用 <\router-link>\ 创建 a 标签来定义导航链接，我们还可以借助 router。...</p>
                             <p class="issuing-time">发布时间：3小时前</p>
 
                         </li>
-                        <li>
+                        <li class="hvr-box-shadow-outset">
                             <img src="./images/frontend-img4.jpg" alt="frontend-img1">
                             <h5><a href="javascript:void (0);">vue-router 2.0 常用基础知识点之导航钩子</a></h5>
                             <p>导航钩子 vue-router 提供的导航钩子主要用来拦截导航，让它完成跳转或取消。有多种方式可以在路由导航发生时执行钩子：全局的或者组件级的...</p>
                             <p class="issuing-time">发布时间：3小时前</p>
 
                         </li>
-                        <li>
+                        <li class="hvr-box-shadow-outset">
                             <img src="./images/frontend-img5.jpg" alt="frontend-img1">
                             <h5><a href="javascript:void (0);">非常有用的CSS代码片段</a></h5>
                             <p>字体渐变色 2色 字体渐变色 4色 label标签和表单控件垂直居中对齐 渐变背景 文本两端对齐的样式 限制输入字数，超出部分显示...</p>
                             <p class="issuing-time">发布时间：3小时前</p>
 
                         </li>
-                        <li>
+                        <li class="hvr-box-shadow-outset">
                             <img src="./images/frontend-img6.jpg" alt="frontend-img1">
                             <h5><a href="javascript:void (0);">常用网站链接</a></h5>
                             <p>1、工作中常用的小功能 草料二维码生成器 http://cli.im/在线二维码解码器 ...</p>
                             <p class="issuing-time">发布时间：3小时前</p>
 
                         </li>
-                        <li>
+                        <li class="hvr-box-shadow-outset">
                             <img src="./images/frontend-img7.jpg" alt="frontend-img1">
                             <h5><a href="javascript:void (0);">vue 动态修改a标签的样式</a></h5>
                             <p>公司要做一个类似今日头条的项目，用前后端分离的方式做成HTML5页面，先在微信中运行...</p>
                             <p class="issuing-time">发布时间：3小时前</p>
 
                         </li>
-                        <li>
+                        <li class="hvr-box-shadow-outset">
                             <img src="./images/frontend-img1.jpg" alt="frontend-img1">
                             <h5><a href="javascript:void (0);">微信授权、登录、注册逻辑</a></h5>
                             <p>刚进入公司的时候，参与了一个公司较为复杂的项目，我们公司大部分都只是一些活动页...</p>
@@ -482,11 +496,11 @@
                     </li>
                     <li>
                         <div class="triangle-left-white triangle-left-bottom"></div>
-                        <img src="./images/design-img1.jpg" alt="design-img1">
+                        <a href="javascript:void (0);" class="design-photo"><img src="./images/design-img1.jpg" alt="design-img1"></a>
                     </li>
                     <li>
                         <div class="triangle-right-white triangle-right-top"></div>
-                        <img src="./images/design-img2.jpg" alt="design-img1">
+                        <a href="javascript:void (0);" class="design-photo"><img src="./images/design-img2.jpg" alt="design-img1"></a>
                     </li>
                     <li>
                         <div class="triangle-right-gray triangle-left-top"></div>
@@ -506,11 +520,11 @@
                     </li>
                     <li>
                         <div class="triangle-left-white triangle-left-bottom"></div>
-                        <img src="./images/design-img3.jpg" alt="design-img1">
+                        <a href="javascript:void (0);" class="design-photo"><img src="./images/design-img3.jpg" alt="design-img1"></a>
                     </li>
                     <li>
                         <div class="triangle-right-white triangle-right-top"></div>
-                        <img src="./images/design-img4.jpg" alt="design-img1">
+                        <a href="javascript:void (0);" class="design-photo"><img src="./images/design-img4.jpg" alt="design-img1"></a>
                     </li>
                     <li>
                         <div class="triangle-right-gray triangle-left-top"></div>
@@ -530,11 +544,11 @@
                     </li>
                     <li>
                         <div class="triangle-left-white triangle-left-bottom"></div>
-                        <img src="./images/design-img5.jpg" alt="design-img1">
+                        <a href="javascript:void (0);" class="design-photo"><img src="./images/design-img5.jpg" alt="design-img1"></a>
                     </li>
                     <li>
                         <div class="triangle-right-white triangle-right-top"></div>
-                        <img src="./images/design-img1.jpg" alt="design-img1">
+                        <a href="javascript:void (0);" class="design-photo"><img src="./images/design-img1.jpg" alt="design-img1"></a>
                     </li>
                     <li>
                         <div class="triangle-right-gray triangle-left-top"></div>
@@ -559,11 +573,11 @@
                     </li>
                     <li>
                         <div class="triangle-left-white triangle-left-bottom"></div>
-                        <img src="./images/design-img2.jpg" alt="design-img1">
+                        <a href="javascript:void (0);" class="design-photo"><img src="./images/design-img2.jpg" alt="design-img1"></a>
                     </li>
                     <li>
                         <div class="triangle-right-white triangle-right-top"></div>
-                        <img src="./images/design-img3.jpg" alt="design-img1">
+                        <a href="javascript:void (0);" class="design-photo"><img src="./images/design-img3.jpg" alt="design-img1"></a>
                     </li>
                     <li>
                         <div class="triangle-right-gray triangle-left-top"></div>
@@ -583,7 +597,7 @@
                     </li>
                     <li>
                         <div class="triangle-left-white triangle-left-bottom"></div>
-                        <img src="./images/design-img4.jpg" alt="design-img1">
+                        <a href="javascript:void (0);" class="design-photo"><img src="./images/design-img4.jpg" alt="design-img1"></a>
                     </li>
                 </ul>
             </div>
@@ -592,7 +606,7 @@
         <div class="live bg-white">
             <h3 class="title">Live</h3>
             <div class="live-container">
-                <div class="pic">
+                <div class="pic hvr-box-shadow-outset">
                     <img src="./images/live-img1.jpg"/>
                     <h3><a href="#">野蛮生长01</a></h3>
                     <p>人长大的标志：试着听从自己内心的声音，而不去在乎外面的声
@@ -601,7 +615,7 @@
                     </p>
                     <p class="data-time">2016-10-12 12:00</p>
                 </div>
-                <div class="pic">
+                <div class="pic hvr-box-shadow-outset">
                     <img src="./images/live-img2.jpg"/>
                     <h3><a href="#">野蛮生长02</a></h3>
                     <p>人长大的标志：试着听从自己内心的声音，而不去在乎外面的声
@@ -610,7 +624,7 @@
                     </p>
                     <p class="data-time">2016-10-12 12:00</p>
                 </div>
-                <div class="pic">
+                <div class="pic hvr-box-shadow-outset">
                     <img src="./images/live-img3.jpg"/>
                     <h3><a href="#">野蛮生长03</a></h3>
                     <p>人长大的标志：试着听从自己内心的声音，而不去在乎外面的声
@@ -619,7 +633,7 @@
                     </p>
                     <p class="data-time">2016-10-12 12:00</p>
                 </div>
-                <div class="pic">
+                <div class="pic hvr-box-shadow-outset">
                     <img src="./images/live-img4.jpg"/>
                     <h3><a href="#">野蛮生长04</a></h3>
                     <p>人长大的标志：试着听从自己内心的声音，而不去在乎外面的声
@@ -629,7 +643,7 @@
                     </p>
                     <p class="data-time">2016-10-12 12:00</p>
                 </div>
-                <div class="pic">
+                <div class="pic hvr-box-shadow-outset">
                     <img src="./images/live-img5.jpg"/>
                     <h3><a href="#">野蛮生长05</a></h3>
                     <p>人长大的标志：试着听从自己内心的声音，而不去在乎外面的声
@@ -638,7 +652,7 @@
                     </p>
                     <p class="data-time">2016-10-12 12:00</p>
                 </div>
-                <div class="pic">
+                <div class="pic hvr-box-shadow-outset">
                     <img src="./images/live-img6.jpg"/>
                     <h3><a href="#">野蛮生长06</a></h3>
                     <p>人长大的标志：试着不要发呆，能碎觉就不要拖延，能吃饭就不
@@ -647,7 +661,7 @@
                     </p>
                     <p class="data-time">2016-10-12 12:00</p>
                 </div>
-                <div class="pic">
+                <div class="pic hvr-box-shadow-outset">
                     <img src="./images/design-img1.jpg"/>
                     <h3><a href="#">野蛮生长07</a></h3>
                     <p>人长大的标志：试着听从自己内心的声音，而不去在乎外面的声
@@ -657,7 +671,7 @@
                     </p>
                     <p class="data-time">2016-10-12 12:00</p>
                 </div>
-                <div class="pic">
+                <div class="pic hvr-box-shadow-outset">
                     <img src="./images/live-img1.jpg"/>
                     <h3><a href="#">野蛮生长08</a></h3>
                     <p>人长大的标志：试着听从自己内心的声音，而不去在乎外面的声
@@ -666,7 +680,7 @@
                     </p>
                     <p class="data-time">2016-10-12 12:00</p>
                 </div>
-                <div class="pic">
+                <div class="pic hvr-box-shadow-outset">
                     <img src="./images/live-img2.jpg"/>
                     <h3><a href="#">野蛮生长09</a></h3>
                     <p>人长大的标志：试着听从自己内心的声音，而不去在乎外面的声
@@ -676,7 +690,7 @@
                     </p>
                     <p class="data-time">2016-10-12 12:00</p>
                 </div>
-                <div class="pic">
+                <div class="pic hvr-box-shadow-outset">
                     <img src="./images/live-img3.jpg"/>
                     <h3><a href="#">野蛮生长10</a></h3>
                     <p>人长大的标志：试着听从自己内心的声音，而不去在乎外面的声
@@ -685,7 +699,7 @@
                     </p>
                     <p class="data-time">2016-10-12 12:00</p>
                 </div>
-                <div class="pic">
+                <div class="pic hvr-box-shadow-outset">
                     <img src="./images/live-img4.jpg"/>
                     <h3><a href="#">野蛮生长</a></h3>
                     <p>人长大的标志：试着听从自己内心的声音，而不去在乎外面的声
@@ -694,7 +708,7 @@
                     </p>
                     <p class="data-time">2016-10-12 12:00</p>
                 </div>
-                <div class="pic">
+                <div class="pic hvr-box-shadow-outset">
                     <img src="./images/live-img2.jpg"/>
                     <h3><a href="#">野蛮生长</a></h3>
                     <p>人长大的标志：试着听从自己内心的声音，而不去在乎外面的声
@@ -704,7 +718,7 @@
                     </p>
                     <p class="data-time">2016-10-12 12:00</p>
                 </div>
-                <div class="pic">
+                <div class="pic hvr-box-shadow-outset">
                     <img src="./images/live-img1.jpg"/>
                     <h3><a href="#">野蛮生长</a></h3>
                     <p>人长大的标志：试着易压垮一个人得东西。犹豫不决是你
@@ -713,7 +727,7 @@
                     </p>
                     <p class="data-time">2016-10-12 12:00</p>
                 </div>
-                <div class="pic">
+                <div class="pic hvr-box-shadow-outset">
                     <img src="./images/live-img2.jpg"/>
                     <h3><a href="#">野蛮生长</a></h3>
                     <p>人长大的呆，能碎觉就不要拖延，能吃饭就不
@@ -722,7 +736,7 @@
                     </p>
                     <p class="data-time">2016-10-12 12:00</p>
                 </div>
-                <div class="pic">
+                <div class="pic hvr-box-shadow-outset">
                     <img src="./images/live-img3.jpg"/>
                     <h3><a href="#">野蛮生长</a></h3>
                     <p>人长大的标要发呆，能碎话，能找到自己想做的事情就不容易了，青春得浪费在美好事物上。</p>
@@ -734,8 +748,11 @@
         <div class="about-me">
             <img src="./images/about-me.jpg" class="me" alt="点击了解更多我的信息">
             <a href="about.html" class="introduction">
-                <h3>About me</h3>
-                <span class="hand"><img src="./images/hand.png" alt="点击了解更多我的信息"></span>
+                <div class="hvr-float">
+                    <h3>About me</h3>
+                    <span class="hand"><img src="./images/hand.png" alt="点击了解更多我的信息"></span>
+                </div>
+
                 <p>设想一生，计划着成功。其实，前途无量全靠实力，端端正正才能成就自己！设想一生，计划着成功。其实，前途无量全靠实力，端端正正才能成就自己！<br>
                     设想一生，计划着成功。其实，前途无量全靠实力，端端正正才能成就自己！</p>
             </a>
@@ -792,6 +809,9 @@
     import {goToTop} from './../../common/js/gototop';
     import Vue from 'vue';
     import { Navbar, TabItem } from 'mint-ui';
+    import { Swipe, SwipeItem } from 'mint-ui';
+    Vue.component(Swipe.name, Swipe);
+    Vue.component(SwipeItem.name, SwipeItem);
     Vue.component(Navbar.name, Navbar);
     Vue.component(TabItem.name, TabItem);
     import { Indicator } from 'mint-ui';
@@ -959,6 +979,22 @@
             height: 3px;
             background: #0b6d99;
         }
+        .min-swipe{
+            width: 100%;
+            height: 326px;
+            display: block;
+            overflow: hidden;
+            &:first-child{
+                background: #effafa;
+            }
+            img{
+                width: 100%;
+                height: auto;
+                overflow: hidden;
+            }
+        }
+
+
         .frontend {
             padding-bottom: 30px;
             background: #f4f4f4;
@@ -1048,6 +1084,14 @@
                     width: 100%;
                 }
                 vertical-align: top;
+
+                .design-photo{
+                    opacity: 0.7;
+                }
+                .design-photo:hover{
+                    opacity: 1;
+
+                }
             }
 
             .triangle-right-bottom {
@@ -1171,7 +1215,7 @@
                 min-height: 100px;
                 text-align: left;
                 background: #fff;
-                box-shadow: 1px 3px 0 1px #ddd;
+                /*box-shadow: 1px 3px 0 1px #ddd;*/
                 img {
                     width: 100%;
                     border-radius: 8px;
@@ -1406,24 +1450,7 @@
 
         }
 
-        /* common */
-        #btn {
-            width: 40px;
-            height: 40px;
-            position: fixed;
-            right: 65px;
-            bottom: 10px;
-            display: none;
-            background: url(./../../common/img/gototop.jpg) no-repeat left top;
-            z-index: 100;
-        }
-        #btn:hover {
-            background: url(./../../common/img/gototop.jpg) no-repeat 0 -39px;
-        }
-        .bg {
-            width: 1190px;
-            margin: 0 auto;
-        }
+
     }
 
 
