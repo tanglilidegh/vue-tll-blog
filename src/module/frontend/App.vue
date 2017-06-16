@@ -24,40 +24,48 @@
                         <mt-tab-container-item id="1">
                             <ul>
                                 <li class="hvr-shadow-radial">
-                                    <img src="./images/frontend-img4.jpg" alt="frontend-img1">
-                                    <div class="Introduction">
-                                        <h4>vue 动态修改a标签的样式</h4>
-                                        <p>
-                                            公司要做一个类似今日头条的项目，用前后端分离的方式做成HTML5页面，先在微信中运行，领导一个类似今日头条的项目，用前后端分离的方式做成HTML5页面，先在微信中运行，领导</p>
-                                        <p class="issuing-time">发布时间：3小时前</p>
-                                    </div>
+                                    <a href="frontend-detail.html">
+                                        <img src="./images/frontend-img4.jpg" alt="frontend-img1">
+                                        <div class="Introduction">
+                                            <h4>vue 动态修改a标签的样式</h4>
+                                            <p>
+                                                公司要做一个类似今日头条的项目，用前后端分离的方式做成HTML5页面，先在微信中运行，领导一个类似今日头条的项目，用前后端分离的方式做成HTML5页面，先在微信中运行，领导</p>
+                                            <p class="issuing-time">发布时间：3小时前</p>
+                                        </div>
+                                    </a>
                                 </li>
                                 <li class="hvr-shadow-radial">
-                                    <img src="./images/frontend-img5.jpg" alt="frontend-img1">
-                                    <div class="Introduction">
-                                        <h4>vue 动态修改a标签的样式</h4>
-                                        <p>
-                                            公司要做一个类似今日头条的项目，用前后端分离的方式做成HTML5页面，先在微信中运行，领导一个类似今日头条的项目，用前后端分离的方式做成HTML5页面，先在微信中运行，领导</p>
-                                        <p class="issuing-time">发布时间：3小时前</p>
-                                    </div>
+                                    <a href="frontend-detail.html">
+                                        <img src="./images/frontend-img5.jpg" alt="frontend-img1">
+                                        <div class="Introduction">
+                                            <h4>vue 动态修改a标签的样式</h4>
+                                            <p>
+                                                公司要做一个类似今日头条的项目，用前后端分离的方式做成HTML5页面，先在微信中运行，领导一个类似今日头条的项目，用前后端分离的方式做成HTML5页面，先在微信中运行，领导</p>
+                                            <p class="issuing-time">发布时间：3小时前</p>
+                                        </div>
+                                    </a>
                                 </li>
                                 <li class="hvr-shadow-radial">
-                                    <img src="./images/frontend-img6.jpg" alt="frontend-img1">
-                                    <div class="Introduction">
-                                        <h4>vue 动态修改a标签的样式</h4>
-                                        <p>
-                                            公司要做一个类似今日头条的项目，用前后端分离的方式做成HTML5页面，先在微信中运行，领导一个类似今日头条的项目，用前后端分离的方式做成HTML5页面，先在微信中运行，领导</p>
-                                        <p class="issuing-time">发布时间：3小时前</p>
-                                    </div>
+                                    <a href="frontend-detail.html">
+                                        <img src="./images/frontend-img6.jpg" alt="frontend-img1">
+                                        <div class="Introduction">
+                                            <h4>vue 动态修改a标签的样式</h4>
+                                            <p>
+                                                公司要做一个类似今日头条的项目，用前后端分离的方式做成HTML5页面，先在微信中运行，领导一个类似今日头条的项目，用前后端分离的方式做成HTML5页面，先在微信中运行，领导</p>
+                                            <p class="issuing-time">发布时间：3小时前</p>
+                                        </div>
+                                    </a>
                                 </li>
                                 <li class="hvr-shadow-radial">
-                                    <img src="./images/frontend-img7.jpg" alt="frontend-img1">
-                                    <div class="Introduction">
-                                        <h4>vue 动态修改a标签的样式</h4>
-                                        <p>
-                                            公司要做一个类似今日头条的项目，用前后端分离的方式做成HTML5页面，先在微信中运行，领导一个类似今日头条的项目，用前后端分离的方式做成HTML5页面，先在微信中运行，领导</p>
-                                        <p class="issuing-time">发布时间：3小时前</p>
-                                    </div>
+                                    <a href="frontend-detail.html">
+                                        <img src="./images/frontend-img7.jpg" alt="frontend-img1">
+                                        <div class="Introduction">
+                                            <h4>vue 动态修改a标签的样式</h4>
+                                            <p>
+                                                公司要做一个类似今日头条的项目，用前后端分离的方式做成HTML5页面，先在微信中运行，领导一个类似今日头条的项目，用前后端分离的方式做成HTML5页面，先在微信中运行，领导</p>
+                                            <p class="issuing-time">发布时间：3小时前</p>
+                                        </div>
+                                    </a>
                                 </li>
                                 <li class="hvr-shadow-radial">
                                     <img src="./images/frontend-img1.jpg" alt="frontend-img1">
@@ -462,9 +470,14 @@
     }
 
     .frontend-wrapper {
+
+
         .container {
             position: relative;
-            margin: 20px auto 40px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 20px;
+            padding-bottom: 40px;
             width: 70%;
             text-align: left;
             .technology-list {
@@ -509,7 +522,7 @@
             .recommend {
                 position: absolute;
                 right: 0;
-                top: 0;
+                top: 20px;
                 width: 30%;
             }
             .new, .popular, .const {

@@ -70,14 +70,16 @@
             <h3 class="class-title" id="pc">PC端Web页面、网站、活动页、管理系统</h3>
             <ul>
                 <li class="hvr-glow">
-                    <div class="design-img">
-                        <img src="./images/design-img1.jpg" alt="frontend-img1">
-                    </div>
-                    <div class="padding-15">
-                        <h5><a href="javascript:void (0);">vue 动态修改a标签的样式</a></h5>
-                        <p class="intro">公司要做一个类似今日头条的项目，用前后端分离的方式做成HTML5页面，先在微信中运行，领导...</p>
-                        <p class="issuing-time">发布时间：3小时前</p>
-                    </div>
+                    <a href="design-detail.html">
+                        <div class="design-img">
+                            <img src="./images/design-img1.jpg" alt="frontend-img1">
+                        </div>
+                        <div class="padding-15">
+                            <h5><a href="javascript:void (0);">vue 动态修改a标签的样式</a></h5>
+                            <p class="intro">公司要做一个类似今日头条的项目，用前后端分离的方式做成HTML5页面，先在微信中运行，领导...</p>
+                            <p class="issuing-time">发布时间：3小时前</p>
+                        </div>
+                    </a>
                 </li>
                 <li class="hvr-glow">
                     <div class="design-img"><img src="./images/design-img2.jpg" alt="frontend-img1"></div>

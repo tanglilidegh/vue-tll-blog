@@ -182,15 +182,9 @@
     .bg-gray {
         background: rgba(255, 252, 7, 0.1);
     }
-
-    /*.about-bg {*/
-    /*background: url(./images/bg14.jpg) no-repeat center top;*/
-    /*background-size: cover;*/
-    /*}*/
-
     .about-me {
-        width: 60%;
-        min-width: 1200px;
+        width: 70%;
+        /*min-width: 1200px;*/
         margin: 240px auto 30px;
         .my-photo, .intro, .keywords {
             display: inline-block;
@@ -379,7 +373,7 @@
         }
         .ability-icon {
             li {
-                width: 24.7%;
+                width: 24%;
                 font-size: 0;
                 display: inline-block;
                 p {

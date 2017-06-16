@@ -1,16 +1,57 @@
 <template>
-    <div id="app" class="w100 main-wrapper">
-        <v-header :isActive=4></v-header>
-        <h3>设计作品详情</h3>
-        <div>
+    <div id="app" class="w100">
+        <v-header :isActive=2></v-header>
+        <div class="main-detail center">
+            <h1>李宗盛和阿信的音乐咖啡馆</h1>
+            <p class="container-text">“有练”咖啡厅给人优雅却不失温暖的感觉，不愧是李宗盛和阿信创立的，将音乐的元素融合到咖啡馆的每一个角落。那一把把优质吉他，让人感觉自己像是在一家吉他博物馆喝咖啡，同行的一个朋友是歌手，也的确爱不释手。除了吉他，也安排了可以独自听音乐的角落，里面都是李宗盛大哥亲自挑选的音乐，也当然有他自己的歌，听着那些熟悉的歌曲，在这个繁华的、很难有融入感的城市，突然有了温暖的、熟悉的感觉。</p>
+            <p class="tip">Boris本次旅行选择的房源Boris本次旅行选择的房源Boris本次旅行选择的房源Boris本次旅行选择的房源</p>
+            <img src="./images/pic2.jpg" alt="">
+            <p class="container-text">“有练”咖啡厅给人优雅却不失温暖的感觉，不愧是李宗盛和阿信创立的，将音乐的元素融合到咖啡馆的每一个角落。那一把把优质吉他，让人感觉自己像是在一家吉他博物馆喝咖啡，同行的一个朋友是歌手，也的确爱不释手。除了吉他，也安排了可以独自听音乐的角落，里面都是李宗盛大哥亲自挑选的音乐，也当然有他自己的歌，听着那些熟悉的歌曲，在这个繁华的、很难有融入感的城市，突然有了温暖的、熟悉的感觉。</p>
             <img src="./images/pic.jpg" alt="">
-            <img src="./images/pic.jpg" alt="">
-            <img src="./images/pic.jpg" alt="">
-            <img src="./images/pic.jpg" alt="">
-            <img src="./images/pic.jpg" alt="">
-            <img src="./images/pic.jpg" alt="">
-            <img src="./images/pic.jpg" alt="">
+            <img src="./images/pic2.jpg" alt="">
+            <p class="container-text">“有练”咖啡厅给人优雅却不失温暖的感觉，不愧是李宗盛和阿信创立的，将音乐的元素融合到咖啡馆的每一个角落。那一把把优质吉他，让人感觉自己像是在一家吉他博物馆喝咖啡，同行的一个朋友是歌手，也的确爱不释手。除了吉他，也安排了可以独自听音乐的角落，里面都是李宗盛大哥亲自挑选的音乐，也当然有他自己的歌，听着那些熟悉的歌曲，在这个繁华的、很难有融入感的城市，突然有了温暖的、熟悉的感觉。</p>
+            <img src="./images/pic2.jpg" alt="">
+            <p class="container-text">“有练”咖啡厅给人优雅却不失温暖的感觉，不愧是李宗盛和阿信创立的，将音乐的元素融合到咖啡馆的每一个角落。那一把把优质吉他，让人感觉自己像是在一家吉他博物馆喝咖啡，同行的一个朋友是歌手，也的确爱不释手。除了吉他，也安排了可以独自听音乐的角落，里面都是李宗盛大哥亲自挑选的音乐，也当然有他自己的歌，听着那些熟悉的歌曲，在这个繁华的、很难有融入感的城市，突然有了温暖的、熟悉的感觉。</p>
+            <p class="tip">Boris本次旅行选择的房源Boris本次旅行选择的房源Boris本次旅行选择的房源。</p>
+            <div class="design-desc">
+                <p><strong>项目名称：</strong>不愧是李宗盛和阿信创立的。</p>
+                <p><strong>设计思路：</strong>觉自己像是在一家吉他博物馆喝咖啡，同行的一个朋友是歌手，也的确爱不释同行的一个朋友是歌手，也的确爱不释。</p>
+                <p><strong>项目简介：</strong>里面都是李宗盛大哥亲自挑选的音乐，也当然有他自己的歌，听着那些熟悉的歌也当然有他自己的歌，听着那些熟悉的歌。</p>
+
+            </div>
+            <div class="recommend">
+                <h3 class="recommend-title">推荐作品</h3>
+                <ul class="cf">
+                    <li>
+                        <img src="./images/design-img1.jpg" alt="">
+                        <p><strong>网站</strong>银丰科技有限公司的官方网站</p>
+                    </li>
+                    <li>
+                        <img src="./images/design-img2.jpg" alt="">
+                        <p><strong>UI</strong>银丰科技有限公司的官方网站</p>
+                    </li>
+                    <li>
+                        <img src="./images/design-img3.jpg" alt="">
+                        <p><strong>APP</strong>银丰科技有限公司的官方网站</p>
+                    </li>
+                    <li>
+                        <img src="./images/design-img4.jpg" alt="">
+                        <p><strong>网站</strong>银丰科技有限公司的官方网站</p>
+                    </li>
+                    <li>
+                        <img src="./images/design-img5.jpg" alt="">
+                        <p><strong>移动端</strong>银丰科技有限公司的官方网站</p>
+                    </li>
+                    <li>
+                        <img src="./images/design-img1.jpg" alt="">
+                        <p><strong>网站</strong>银丰科技有限公司的官方网站</p>
+                    </li>
+
+                </ul>
+            </div>
+
         </div>
+
         <v-footer></v-footer>
         <a href="javascript:void(0);" id="btn" title="回到顶部"></a>
     </div>
@@ -39,306 +80,106 @@
 
 <style lang="scss" rel="stylesheet/scss" scoped>
     @import "./../../common/css/common";
+    @import "./../../common/css/reset.css";
     @import "./../../common/css/progress.css";
-
-    .about-wrapper {
-        width: 100%;
-    }
-
-    .bg-gray {
-        background: rgba(255, 252, 7, 0.1);
-    }
-
-    /*.about-bg {*/
-    /*background: url(./images/bg14.jpg) no-repeat center top;*/
-    /*background-size: cover;*/
-    /*}*/
-
-    .about-me {
-        width: 60%;
-        min-width: 1200px;
-        margin: 240px auto 30px;
-        .my-photo, .intro, .keywords {
-            display: inline-block;
-            font-size: 0;
-            vertical-align: top;
-            min-height: 300px;
+    .main-detail{
+        margin-top: 50px;
+        width: 700px;
+        text-align: left;
+        img{
+            width: 100%;
+            margin-bottom: 1em;
         }
-        .my-photo {
-            width: 29.2%;
-            img {
-                width: 300px;
-                height: 300px;
-                border-radius: 50%;
-                border: 10px solid rgba(11, 109, 153, .1);
-            }
+        h1{
+            color: #484848;
+            font-weight: bold;
+            font-size: 24px;
+            margin: 1em 0;
         }
-        .intro, .keywords {
-            h3 {
+        .container-text{
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 1.7em;
+            color: #565a5c;
+            margin: 0 0 1.7em;
+        }
+        .tip{
+            font-size: 16px;
+            margin: 1em 0;
+            color: rgb(204, 205, 206);
+        }
+        .design-desc{
+            padding-top: 1.1em;
+            padding-bottom: 1.1em;
+            border-top: solid 1px #e6e6e6;
+            border-bottom: solid 1px #e6e6e6;
+
+            padding-left: 8em;
+            background: url("./images/design-icon.png") no-repeat left 1.4em ;
+            background-size: 16%;
+            p{
                 position: relative;
-                margin-bottom: 5px;
-                padding-left: 10px;
-                color: rgb(11, 109, 153);
-                font-size: 18px;
-                text-align: left;
+                padding-left: 5em;
+                margin-bottom: 0.5em;
+                font-size: 16px;
+                line-height: 1.6;
+                color: #565a5c;
             }
-            h3::before {
-                content: '';
+            strong{
                 position: absolute;
                 left: 0;
-                top: 3px;
-                display: block;
-                width: 3px;
-                height: 20px;
-                background: rgb(11, 109, 153);
-            }
-        }
-        .intro {
-            margin-right: 1%;
-            width: 39%;
-            padding: 20px;
-            background: rgba(11, 109, 153, .1);
-            border-radius: 10px;
-            .text, .er-code {
-                display: inline-block;
-                font-size: 0;
-                vertical-align: top;
-            }
-            .text {
-                width: 75%;
-                text-align: left;
-                p {
-                    margin: 8px 0;
-                    strong {
-                        display: inline-block;
-                        font-weight: normal;
-                        width: 80px;
-                        color: rgb(11, 109, 153);
-                    }
-                    span {
-                        display: inline-block;
-                        padding: 2px 10px;
-                        color: #fff;
-                        background: rgba(11, 109, 153, .4);
-                        border-radius: 5px;
-                    }
-                }
-            }
-            .er-code {
-                width: 25%;
-                p {
-                    text-align: center;
-                    line-height: 3;
-                    color: rgb(11, 109, 153);
-                }
-                img {
-                    width: 100px;
-                }
-            }
-            p {
+                top: 0;
                 font-size: 16px;
-                color: #999;
-
-            }
-        }
-        .keywords {
-            width: 30%;
-            padding: 20px;
-            text-align: left;
-            background: rgba(11, 109, 153, .1);
-            border-radius: 10px;
-            ul {
-                font-size: 0;
-                li {
-                    margin: 6px;
-                    padding: 2px 10px;
-                    display: inline-block;
-                    font-size: 16px;
-                    line-height: 2;
-                    color: #fff;
-                    background: rgba(11, 109, 153, .4);
-                    border-radius: 5px;
-                }
-            }
-        }
-    }
-
-    .evaluation {
-        width: 60%;
-        min-width: 1200px;
-        margin: 0 auto 20px;
-        /*background: rgba(244, 244, 244, 0.5);*/
-        /*border-radius: 10px;*/
-        ul li {
-            padding: 30px;
-            margin: 0 10px;
-            display: inline-block;
-            vertical-align: top;
-            width: 31%;
-            font-size: 0;
-            img {
-                margin: 20px auto;
                 display: block;
+                font-weight: normal;
             }
-            p {
-                position: relative;
-                font-size: 14px;
-                text-align: left;
-                margin-bottom: 10px;
-                margin-top: 5px;
-                color: #535353;
-                line-height: 1.5;
-                padding-left: 27px;
-                i {
-                    position: absolute;
-                    left: 0;
-                    top: -1px;
-                    display: inline-block;
-                    width: 20px;
-                    height: 20px;
+        }
+        .recommend{
+            margin: 2em 0;
+            ul li{
+                margin-bottom: 2em;
+                width: 31.333%;
+                overflow: hidden;
+                float: left;
+                font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+                /*border: 1px solid #ff6600;*/
+                img{
+                    width: 100%;
+                    border-radius: 10px;
+                }
+                p{
+                    font-weight: 300;
+                    color: #484848;
+                    margin: 0;
+                    word-wrap: break-word;
+                    font-size: 15px;
                     line-height: 20px;
-                    text-align: center;
-                    font-style: normal;
-                    color: #fff;
-                    border-radius: 50%;
-                    background: #0b6d99;
+                    letter-spacing: 0.2px;
+                }
+                strong{
+                    margin-right: 0.4em;
+                    display: inline-block;
+                    font-weight: 700;
                 }
             }
-            h3 {
-                margin: 0 auto 10px;
-                width: 100px;
-                height: 40px;
-                line-height: 40px;
-                color: #0b6d99;
-                font-size: 18px;
-                border: 1px solid #0b6d99;
-                border-left: 0;
-                border-right: 0;
+            ul li:nth-child(2),ul li:nth-child(5){
+                margin-left: 3%;
+                margin-right: 3%;
             }
         }
-    }
-
-    .ability {
-        width: 60%;
-        min-width: 1200px;
-        margin: 0 auto 20px;
-        p.ability-text {
-            margin: 30px 0;
-            line-height: 1.4;
-        }
-        h3 {
-            position: relative;
-            color: #0b6d99;
+        .recommend-title{
+            font-weight: normal;
+            color: #484848;
+            font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+            margin-bottom: 1em;
+            word-wrap: break-word;
             font-size: 22px;
-            height: 60px;
-            line-height: 60px;
+            line-height: 28px;
+            letter-spacing: -0.2px;
+            padding-top: 0;
+            padding-bottom: 0;
         }
-        h3::before {
-            content: '';
-            position: absolute;
-            left: 50%;
-            bottom: 0;
-            margin-left: -50px;
-            width: 100px;
-            height: 3px;
-            background: #c5c5cb;
-        }
-        .ability-icon {
-            li {
-                width: 24.7%;
-                font-size: 0;
-                display: inline-block;
-                p {
-                    font-size: 18px;
-                    line-height: 2;
-                    color: #0b6d99;
-                }
-            }
-        }
+
     }
-
-    .bg-blue {
-        background: rgba(141, 213, 183, 0.22);
-    }
-
-    .technology {
-        padding: 20px 0;
-        width: 60%;
-        min-width: 1200px;
-        margin: 0 auto 70px;
-        ul li {
-            padding: 10px;
-            margin: 0 0.83%;
-            display: inline-block;
-            vertical-align: top;
-            font-size: 0;
-            width: 23%;
-            color: #474747;
-            min-height: 400px;
-
-            /*border-radius: 10px;*/
-            img {
-                margin-bottom: 10px;
-                width: 100%;
-                border-radius: 10px;
-            }
-            h3 {
-                margin: 5px auto 15px;
-                font-size: 18px;
-                color: #0b6d99;
-                width: 100px;
-                height: 40px;
-                line-height: 40px;
-                border: 1px solid #0b6d99;
-                border-left: 0;
-                border-right: 0;
-            }
-            p {
-                position: relative;
-                font-size: 14px;
-                text-align: left;
-                margin-bottom: 10px;
-                margin-top: 5px;
-                line-height: 1.5;
-                padding-left: 27px;
-                /*border-bottom: 2px solid rgba(141, 213, 183, 0.22);*/
-                i {
-                    position: absolute;
-                    left: 0;
-                    top: 1px;
-                    display: inline-block;
-                    width: 20px;
-                    height: 20px;
-                    line-height: 20px;
-                    text-align: center;
-                    font-style: normal;
-                    color: #fff;
-                    border-radius: 50%;
-                    background: #0b6d99;
-                }
-            }
-        }
-    }
-
-    .inscribe {
-        position: relative;
-        margin: 0 auto 80px;
-        font-size: 28px;
-        color: #0b6d99;
-        line-height: 1.5;
-        height: 100px;
-    }
-
-    .inscribe::before {
-        content: '';
-        position: absolute;
-        left: 50%;
-        bottom: -10px;
-        margin-left: -50px;
-        width: 100px;
-        height: 3px;
-        background: #c5c5cb;
-    }
-
 
 </style>

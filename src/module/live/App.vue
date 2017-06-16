@@ -195,7 +195,8 @@
 
     .live-container {
         width: 85%;
-        margin: 20px auto 0;
+        padding-top: 20px;
+        margin: 0 auto 0;
 
         -moz-column-count: 5;
         -moz-column-gap: 15px;
