@@ -12,7 +12,7 @@
 }
 .w100 {
     width: 100%;
-    min-width: 1480px;
+    min-width: 1280px;
 }
 .bg-white {
     background: #fff;
@@ -22,6 +22,10 @@ a.more {
     display: block;
     width: 100%;
     color: #8a8a8a;
+}
+a.more:hover{
+    color: #707070;
+    text-decoration: underline;
 }
 .padding-15{
     padding: 0 15px 15px;

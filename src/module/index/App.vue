@@ -1094,8 +1094,8 @@
             padding-bottom: 30px;
         }
         .design-container {
-            width: 85%;
-            min-width: 1480px;
+            width: 100%;
+            min-width: 1280px;
             margin: 50px auto 0;
         }
         .design-list {
@@ -1103,22 +1103,22 @@
             li {
                 position: relative;
                 display: inline-block;
-                width: 296px;
-                height: 296px;
+                width: 280px;
+                height: 280px;
                 font-size: 14px;
                 border: 3px solid #fff;
                 img {
                     width: 100%;
+                    height: 100%;
                 }
                 vertical-align: top;
 
-                .design-photo {
-                    opacity: 0.7;
-                }
-                .design-photo:hover {
-                    opacity: 1;
-
-                }
+                /*.design-photo {*/
+                    /*opacity: 0.7;*/
+                /*}*/
+                /*.design-photo:hover {*/
+                    /*opacity: 1;*/
+                /*}*/
             }
 
             .triangle-right-bottom {
@@ -1147,7 +1147,6 @@
                 border-left: 12px solid #fff;
                 border-bottom: 9px solid transparent;
             }
-
             .triangle-right-white {
                 width: 0;
                 height: 0;
@@ -1176,7 +1175,7 @@
             }
 
             .h145 {
-                height: 145px;
+                height: 137px;
             }
             .text-right {
                 text-align: right;
@@ -1287,7 +1286,7 @@
         }
         .about-me {
             position: relative;
-            min-width: 1480px;
+            min-width: 1280px;
             width: 100%;
             height: 520px;
             overflow: hidden;
@@ -1430,7 +1429,7 @@
         .thanks {
             position: relative;
 
-            min-width: 1480px;
+            min-width: 1280px;
             width: 100%;
             height: 400px;
             overflow: hidden;

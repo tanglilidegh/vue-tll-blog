@@ -1,20 +1,20 @@
-/*html {*/
-    /*overflow-y: scroll;*/
+html {
+    overflow-y: scroll;
     /*height: 100%;*/
     /*background: #f4f3f9;*/
     /*color: #9b9a9a;*/
-    /*-webkit-text-size-adjust: 100%;*/
-    /*-ms-text-size-adjust: 100%;*/
-/*}*/
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
 
-/*body {*/
-    /*-webkit-user-select: none;*/
-    /*user-select: none;*/
+body {
+    -webkit-user-select: none;
+    user-select: none;
     /*background: #f4f3f9;*/
-    /*font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "STHeiti", "微软雅黑", "Microsoft YaHei", sans-serif;*/
-    /*-webkit-font-smoothing: antialiased;*/
+    font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "STHeiti", "微软雅黑", "Microsoft YaHei", sans-serif;
+    -webkit-font-smoothing: antialiased;
     /*height: 100%;*/
-/*}*/
+}
 
 html * {
     outline: 0;

@@ -1,11 +1,11 @@
 <template>
     <div id="app" class="w100 main-wrapper">
         <v-header :isActive=4></v-header>
-        <div class="about-me">
-            <div class="my-photo">
+        <div class="about-me cf">
+            <div class="my-photo fl">
                 <img src="./../../common/img/me.jpg" alt="">
             </div>
-            <div class="intro">
+            <div class="intro fl">
                 <h3>基本信息</h3>
                 <div class="text">
                     <p><strong>姓名：</strong><span>汤利利</span></p>
@@ -20,7 +20,7 @@
                     <img src="./../../common/img/er-code.jpg" alt="">
                 </div>
             </div>
-            <div class="keywords">
+            <div class="keywords fl">
                 <h3>自定义标签</h3>
                 <ul>
                     <li>责任心强</li>
@@ -156,6 +156,7 @@
     import VHeader from 'components/common/header';
     import {goToTop} from './../../common/js/gototop';
 
+
     export default {
         name: 'app',
         data(){
@@ -174,6 +175,7 @@
 <style lang="scss" rel="stylesheet/scss" scoped>
     @import "./../../common/css/common";
     @import "./../../common/css/progress.css";
+    @import "./../../common/css/reset.css";
 
     .about-wrapper {
         width: 100%;
@@ -183,17 +185,17 @@
         background: rgba(255, 252, 7, 0.1);
     }
     .about-me {
-        width: 70%;
-        /*min-width: 1200px;*/
+        width: 60%;
+        min-width: 1200px;
         margin: 240px auto 30px;
         .my-photo, .intro, .keywords {
-            display: inline-block;
+            /*display: inline-block;*/
             font-size: 0;
             vertical-align: top;
             min-height: 300px;
         }
         .my-photo {
-            width: 29.2%;
+            /*width: 29.2%;*/
             img {
                 width: 300px;
                 height: 300px;
