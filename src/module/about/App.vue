@@ -76,19 +76,15 @@
             <div class="ability-icon">
                 <ul>
                     <li>
-                        <!--<img src="./images/xuexi.png" alt="学习能力">-->
                         <p>学习能力</p>
                     </li>
                     <li>
-                        <!--<img src="./images/zhuanye.png" alt="专业能力">-->
                         <p>专业能力</p>
                     </li>
                     <li>
-                        <!--<img src="./images/english.png" alt="英语能力">-->
                         <p>英语能力</p>
                     </li>
                     <li>
-                        <!--<img src="./images/tuandui.png" alt="团队合作">-->
                         <p>团队合作</p>
                     </li>
                 </ul>
@@ -165,7 +161,6 @@
         mounted() {
             goToTop();
         },
-        methods: {},
         components: {
             VFooter, VHeader
         }
@@ -173,9 +168,9 @@
 </script>
 
 <style lang="scss" rel="stylesheet/scss" scoped>
-    @import "./../../common/css/common";
-    @import "./../../common/css/progress.css";
-    @import "./../../common/css/reset.css";
+    /*@import "./../../common/css/common";*/
+    /*@import "./../../common/css/progress.css";*/
+    /*@import "./../../common/css/reset.css";*/
 
     .about-wrapper {
         width: 100%;
@@ -189,13 +184,11 @@
         min-width: 1200px;
         margin: 240px auto 30px;
         .my-photo, .intro, .keywords {
-            /*display: inline-block;*/
             font-size: 0;
             vertical-align: top;
             min-height: 300px;
         }
         .my-photo {
-            /*width: 29.2%;*/
             img {
                 width: 300px;
                 height: 300px;
@@ -297,8 +290,6 @@
         width: 60%;
         min-width: 1200px;
         margin: 0 auto 20px;
-        /*background: rgba(244, 244, 244, 0.5);*/
-        /*border-radius: 10px;*/
         ul li {
             padding: 30px;
             margin: 0 10px;
@@ -406,7 +397,6 @@
             color: #474747;
             min-height: 400px;
 
-            /*border-radius: 10px;*/
             img {
                 margin-bottom: 10px;
                 width: 100%;
@@ -431,7 +421,6 @@
                 margin-top: 5px;
                 line-height: 1.5;
                 padding-left: 27px;
-                /*border-bottom: 2px solid rgba(141, 213, 183, 0.22);*/
                 i {
                     position: absolute;
                     left: 0;
