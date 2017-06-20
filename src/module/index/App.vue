@@ -833,7 +833,7 @@
 </template>
 
 <script>
-//    import {goToTop} from './../../common/js/gototop';
+    import {goToTop} from './../../common/js/gototop';
     import Vue from 'vue';
     import {Navbar, TabItem} from 'mint-ui';
     import {Swipe, SwipeItem} from 'mint-ui';
@@ -944,7 +944,7 @@
             });
 
 
-//            goToTop();
+            goToTop();
 
 
             this.$nextTick(function () {
@@ -987,8 +987,8 @@
 <style lang="scss" rel="stylesheet/scss" scoped>
     @import "./../../common/css/common.scss";
     .main-wrapper {
-        background: #effafa url("./images/hand.png") no-repeat center top;
-        background-size: contain;
+        /*background: #effafa url("./images/hand.png") no-repeat center top;*/
+        /*background-size: contain;*/
     }
 
     .main-wrapper {
