@@ -1317,7 +1317,7 @@
                     width: 170px;
                     height: 90px;
                     line-height: 90px;
-                    font-size: 36px;
+                    font-size: 32px;
                     border-bottom: 2px solid #0b6d99;
 
                 }
