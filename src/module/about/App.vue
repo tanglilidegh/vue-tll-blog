@@ -150,7 +150,7 @@
 //    import 'common/css/reset.css';
     import VFooter from 'components/common/footer';
     import VHeader from 'components/common/header';
-    import {goToTop} from './../../common/js/gototop';
+//    import {goToTop} from './../../common/js/gototop';
 
 
     export default {
@@ -159,7 +159,7 @@
             return {}
         },
         mounted() {
-            goToTop();
+//            goToTop();
         },
         components: {
             VFooter, VHeader

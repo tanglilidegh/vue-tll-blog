@@ -422,7 +422,7 @@
 
 <script>
     import 'common/css/reset.css';
-    import {goToTop} from './../../common/js/gototop';
+//    import {goToTop} from './../../common/js/gototop';
     import VFooter from 'components/common/footer';
     import VHeader from 'components/common/header';
     import Vue from 'vue';
@@ -437,7 +437,7 @@
             }
         },
         mounted() {
-            goToTop();
+//            goToTop();
         },
         components: {
             VFooter, VHeader

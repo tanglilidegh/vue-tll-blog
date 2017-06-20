@@ -833,7 +833,7 @@
 </template>
 
 <script>
-    import {goToTop} from './../../common/js/gototop';
+//    import {goToTop} from './../../common/js/gototop';
     import Vue from 'vue';
     import {Navbar, TabItem} from 'mint-ui';
     import {Swipe, SwipeItem} from 'mint-ui';
@@ -944,7 +944,7 @@
             });
 
 
-            goToTop();
+//            goToTop();
 
 
             this.$nextTick(function () {

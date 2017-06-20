@@ -61,7 +61,7 @@
     import 'common/css/reset.css';
     import VFooter from 'components/common/footer';
     import VHeader from 'components/common/header';
-    import {goToTop} from './../../common/js/gototop';
+//    import {goToTop} from './../../common/js/gototop';
 
     export default {
         name: 'app',
@@ -69,7 +69,7 @@
             return {}
         },
         mounted() {
-            goToTop();
+//            goToTop();
         },
         methods: {},
         components: {
