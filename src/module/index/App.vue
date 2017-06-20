@@ -986,10 +986,10 @@
 </style>
 <style lang="scss" rel="stylesheet/scss" scoped>
     @import "./../../common/css/common.scss";
-    /*.main-wrapper {*/
-        /*background: #effafa url("./images/header-bg2.jpg") no-repeat center top;*/
-        /*background-size: 1201px 324px;*/
-    /*}*/
+    .main-wrapper {
+        background: #effafa url("./images/header-bg2.jpg") no-repeat center top;
+        background-size: 1201px 324px;
+    }
 
     .main-wrapper {
         h3.title {

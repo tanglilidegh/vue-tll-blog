@@ -171,11 +171,10 @@
     @import "./../../common/css/common.scss";
     /*@import "./../../common/css/progress.css";*/
     @import "./../../common/css/reset.css";
-    /*.main-wrapper {*/
-        /*background: #effafa url("./../../common/img/header-bg.png") no-repeat center top;*/
-        /*background-size: 100%;*/
-    /*}*/
-
+    .main-wrapper {
+        background: #effafa url("./images/header-bg2.jpg") no-repeat center top;
+        background-size: 1201px 324px;
+    }
     .about-wrapper {
         width: 100%;
     }
