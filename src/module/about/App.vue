@@ -172,8 +172,8 @@
     /*@import "./../../common/css/progress.css";*/
     @import "./../../common/css/reset.css";
     .main-wrapper {
-        background: #effafa url("./images/header-bg2.jpg") no-repeat center top;
-        background-size: 1201px 324px;
+        background: #effafa url("./images/logo.png") no-repeat center top;
+        background-size: contain;
     }
     .about-wrapper {
         width: 100%;

@@ -987,8 +987,8 @@
 <style lang="scss" rel="stylesheet/scss" scoped>
     @import "./../../common/css/common.scss";
     .main-wrapper {
-        background: #effafa url("./images/header-bg2.jpg") no-repeat center top;
-        background-size: 1201px 324px;
+        background: #effafa url("./images/hand.png") no-repeat center top;
+        background-size: contain;
     }
 
     .main-wrapper {
