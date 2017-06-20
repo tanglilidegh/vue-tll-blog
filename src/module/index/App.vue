@@ -985,7 +985,11 @@
     }
 </style>
 <style lang="scss" rel="stylesheet/scss" scoped>
-    @import "./../../common/css/common";
+    @import "./../../common/css/common.scss";
+    .main-wrapper {
+        background: #effafa url("./../../common/img/header-bg.png") no-repeat center top;
+        background-size: 100%;
+    }
 
     .main-wrapper {
         h3.title {

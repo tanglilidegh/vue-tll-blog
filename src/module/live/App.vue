@@ -186,7 +186,7 @@
     }
 </style>
 <style lang="scss" rel="stylesheet/scss" scoped>
-    @import "./../../common/css/common";
+    @import "./../../common/css/common.scss";
 
     .live {
         padding-bottom: 50px;

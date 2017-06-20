@@ -145,7 +145,7 @@
 </script>
 
 <style lang="scss" rel="stylesheet/scss" scoped>
-    @import "./../../common/css/common";
+    @import "./../../common/css/common.scss";
     @import "./../../common/css/reset.css";
     @import "./../../common/css/progress.css";
     .main-detail{

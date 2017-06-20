@@ -462,7 +462,7 @@
     }
 </style>
 <style lang="scss" rel="stylesheet/scss" scoped>
-    @import "./../../common/css/common";
+    @import "./../../common/css/common.scss";
 
     .frontend-bg {
         background: url(./images/bg1.jpg) no-repeat fixed center top;

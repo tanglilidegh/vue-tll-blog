@@ -787,7 +787,7 @@
 
 <style lang="scss" rel="stylesheet/scss" scoped>
 
-    @import "./../../common/css/common";
+    @import "./../../common/css/common.scss";
 
     .class-list {
         margin-top: 20px;

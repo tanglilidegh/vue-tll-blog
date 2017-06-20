@@ -168,9 +168,13 @@
 </script>
 
 <style lang="scss" rel="stylesheet/scss" scoped>
-    @import "./../../common/css/common";
+    @import "./../../common/css/common.scss";
     /*@import "./../../common/css/progress.css";*/
     @import "./../../common/css/reset.css";
+    .main-wrapper {
+        background: #effafa url("./../../common/img/header-bg.png") no-repeat center top;
+        background-size: 100%;
+    }
 
     .about-wrapper {
         width: 100%;

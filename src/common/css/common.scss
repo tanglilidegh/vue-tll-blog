@@ -7,16 +7,16 @@
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
 }
-.bg-gray{
-    background: #f4f4f4;
-}
+//.bg-gray{
+//    background: #f4f4f4;
+//}
 .w100 {
     width: 100%;
     min-width: 1280px;
 }
-.bg-white {
-    background: #fff;
-}
+//.bg-white {
+//    background: #fff;
+//}
 a.more {
     margin-top: 20px;
     display: block;
@@ -35,10 +35,7 @@ a.more:hover{
     word-wrap: break-word;
     text-align: justify;
 }
-.main-wrapper {
-    background: #effafa url("./../../common/img/header-bg.png") no-repeat center top;
-    background-size: 100%;
-}
+
 .big-img-bg {
     position: relative;
     min-width: 1200px;
