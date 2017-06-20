@@ -141,7 +141,7 @@
                 width: 31.333%;
                 overflow: hidden;
                 float: left;
-                font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+                font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
                 /*border: 1px solid #ff6600;*/
                 img{
                     width: 100%;
