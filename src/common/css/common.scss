@@ -1,12 +1,14 @@
 .margin-top-200 {
     margin-top: 5%;
 }
+
 #app {
-    font-family: "Hiragino Sans GB","华文细黑","STHeiti","微软雅黑","Microsoft YaHei",SimHei,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Hiragino Sans GB", "华文细黑", "STHeiti", "微软雅黑", "Microsoft YaHei", SimHei, "Helvetica Neue", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
 }
+
 //.bg-gray{
 //    background: #f4f4f4;
 //}
@@ -14,6 +16,7 @@
     width: 100%;
     min-width: 1280px;
 }
+
 //.bg-white {
 //    background: #fff;
 //}
@@ -23,17 +26,25 @@ a.more {
     width: 100%;
     color: #8a8a8a;
 }
-a.more:hover{
+
+a.more:hover {
     color: #707070;
     text-decoration: underline;
 }
-.padding-15{
+
+.padding-15 {
     padding: 0 15px 15px;
 }
-.word-justify{
+
+.word-justify {
     -ms-word-wrap: break-word;
     word-wrap: break-word;
     text-align: justify;
+}
+
+.main-wrapper {
+    background: #effafa url("./../img/header-bg2.jpg") no-repeat center top;
+    background-size: 1201px 324px;
 }
 
 .big-img-bg {
@@ -73,7 +84,7 @@ a.more:hover{
             font-size: 23px;
             opacity: 0.6;
         }
-        h3::after{
+        h3::after {
             content: '';
             position: absolute;
             bottom: 20px;
@@ -81,7 +92,7 @@ a.more:hover{
             margin-left: -15%;
             width: 30%;
             height: 2px;
-            background: rgba(255,255,255,.4);
+            background: rgba(255, 255, 255, .4);
         }
     }
 
@@ -138,8 +149,6 @@ a.more:hover{
     transform: translateY(5px);
     /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
-
-
 
 figure.effect-oscar {
     background: -webkit-linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
@@ -206,7 +215,6 @@ figure.effect-oscar:hover img {
     opacity: 0.4;
 }
 
-
 /* Glow */
 .hvr-glow {
     -webkit-transform: translateZ(0);
@@ -240,6 +248,7 @@ figure.effect-oscar:hover img {
     -webkit-transition-property: box-shadow;
     transition-property: box-shadow;
 }
+
 .hvr-box-shadow-outset:hover, .hvr-box-shadow-outset:focus, .hvr-box-shadow-outset:active {
     box-shadow: 5px 4px 3px rgba(196, 196, 196, 0.66);
 }
@@ -261,6 +270,7 @@ figure.effect-oscar:hover img {
     box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.6), 0 0 1px rgba(0, 0, 0, 0);
     /* Hack to improve aliasing on mobile/tablet devices */
 }
+
 .hvr-box-shadow-inset:hover, .hvr-box-shadow-inset:focus, .hvr-box-shadow-inset:active {
     box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.6), 0 0 1px rgba(0, 0, 0, 0);
     /* Hack to improve aliasing on mobile/tablet devices */
@@ -281,11 +291,11 @@ figure.effect-oscar:hover img {
     -webkit-transition-property: transform;
     transition-property: transform;
 }
+
 .hvr-grow-rotate:hover, .hvr-grow-rotate:focus, .hvr-grow-rotate:active {
     -webkit-transform: scale(1.1) rotate(4deg);
     transform: scale(1.1) rotate(4deg);
 }
-
 
 /* Pulse */
 @-webkit-keyframes hvr-pulse {
@@ -328,6 +338,7 @@ figure.effect-oscar:hover img {
     -webkit-transition-property: transform;
     transition-property: transform;
 }
+
 .hvr-bubble-float-right:before {
     position: absolute;
     z-index: -1;
@@ -342,15 +353,16 @@ figure.effect-oscar:hover img {
     -webkit-transition-property: transform;
     transition-property: transform;
 }
+
 .hvr-bubble-float-right:hover, .hvr-bubble-float-right:focus, .hvr-bubble-float-right:active {
     -webkit-transform: translateX(-10px);
     transform: translateX(-10px);
 }
+
 .hvr-bubble-float-right:hover:before, .hvr-bubble-float-right:focus:before, .hvr-bubble-float-right:active:before {
     -webkit-transform: translateX(10px);
     transform: translateX(10px);
 }
-
 
 /* Float */
 .hvr-float {
@@ -370,11 +382,11 @@ figure.effect-oscar:hover img {
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
 }
+
 .hvr-float:hover, .hvr-float:focus, .hvr-float:active {
     -webkit-transform: translateY(-8px);
     transform: translateY(-8px);
 }
-
 
 /* common */
 #btn {
@@ -387,9 +399,11 @@ figure.effect-oscar:hover img {
     background: url(./../../common/img/gototop.jpg) no-repeat left top;
     z-index: 100;
 }
+
 #btn:hover {
     background: url(./../../common/img/gototop.jpg) no-repeat 0 -39px;
 }
+
 .bg {
     width: 1190px;
     margin: 0 auto;
