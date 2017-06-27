@@ -987,8 +987,8 @@
 <style lang="scss" rel="stylesheet/scss" scoped>
     @import "./../../common/css/common.scss";
     .main-wrapper {
-        /*background: #effafa url("./images/hand.png") no-repeat center top;*/
-        /*background-size: contain;*/
+        background: #effafa url("./images/header-bg.jpg") no-repeat center top;
+        background-size: contain;
     }
 
     .main-wrapper {
@@ -1099,7 +1099,7 @@
         }
         .design-container {
             width: 100%;
-            min-width: 1280px;
+            min-width: 1480px;
             margin: 50px auto 0;
         }
         .design-list {
@@ -1290,7 +1290,7 @@
         }
         .about-me {
             position: relative;
-            min-width: 1280px;
+            min-width: 1480px;
             width: 100%;
             height: 520px;
             overflow: hidden;
@@ -1433,7 +1433,7 @@
         .thanks {
             position: relative;
 
-            min-width: 1280px;
+            min-width: 1480px;
             width: 100%;
             height: 400px;
             overflow: hidden;

@@ -172,8 +172,8 @@
     /*@import "./../../common/css/progress.css";*/
     @import "./../../common/css/reset.css";
     .main-wrapper {
-        /*background: #effafa url("./images/logo.png") no-repeat center top;*/
-        /*background-size: contain;*/
+        background: #effafa url("./images/header-bg.jpg") no-repeat center top;
+        background-size: contain;
     }
     .about-wrapper {
         width: 100%;
@@ -184,9 +184,10 @@
     }
     .about-me {
         width: 60%;
-        min-width: 1200px;
+        min-width: 1280px;
         margin: 240px auto 30px;
         .my-photo, .intro, .keywords {
+            margin: 0 10px;
             font-size: 0;
             vertical-align: top;
             min-height: 300px;
