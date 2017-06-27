@@ -70,7 +70,6 @@
                 </ul>
             </div>
         </div>
-
         <div class="ability">
             <h3>实力展示</h3>
             <p class="ability-text">以下均是个人工作能力的概况，我一直深信不疑，术业有专攻；工欲善其事，必先利其器。 <br>愿与更多有识之士同识共勉，同享创造。</p>
@@ -137,7 +136,6 @@
                 </ul>
             </div>
         </div>
-
         <div class="inscribe">
             <p>工作是为了更好的生活，所以要努力工作，</p>
             <p>学习能成就更好的自己，所以要在生活中不断的学习。</p>
@@ -152,7 +150,6 @@
     import VFooter from 'components/common/footer';
     import VHeader from 'components/common/header';
 //    import {goToTop} from './../../common/js/gototop';
-
 
     export default {
         name: 'app',
@@ -173,7 +170,7 @@
     /*@import "./../../common/css/progress.css";*/
     @import "./../../common/css/reset.css";
     .main-wrapper {
-        /*background: url("./images/111.png") no-repeat center top;*/
+        background: url("./images/111.png") no-repeat center top;
         /*background-size: contain;*/
     }
     .about-wrapper {
