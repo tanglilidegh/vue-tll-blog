@@ -987,8 +987,8 @@
 <style lang="scss" rel="stylesheet/scss" scoped>
     @import "./../../common/css/common.scss";
     .main-wrapper {
-        background: url("images/bg1.jpg") no-repeat center top;
-        background-size: contain;
+        background: url("images/222.jpg") no-repeat center top;
+        /*background-size: contain;*/
     }
 
     .main-wrapper {

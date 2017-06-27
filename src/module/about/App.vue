@@ -172,8 +172,8 @@
     /*@import "./../../common/css/progress.css";*/
     @import "./../../common/css/reset.css";
     .main-wrapper {
-        background: url("./images/bg1.jpg") no-repeat center top;
-        background-size: contain;
+        background: url("./images/111.png") no-repeat center top;
+        /*background-size: contain;*/
     }
     .about-wrapper {
         width: 100%;
