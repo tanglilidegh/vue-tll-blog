@@ -1,5 +1,6 @@
 <template>
     <div id="app" class="main-wrapper w100">
+        <img src="./images/222.png" alt="">
         <v-header :isActive=0></v-header>
         <mt-swipe :auto="4000" class="min-swipe">
             <mt-swipe-item>
@@ -987,7 +988,7 @@
 <style lang="scss" rel="stylesheet/scss" scoped>
     @import "./../../common/css/common.scss";
     .main-wrapper {
-        background: url("images/222.jpg") no-repeat center top;
+        /*background: url("images/222.jpg") no-repeat center top;*/
         /*background-size: contain;*/
     }
 

@@ -1,5 +1,6 @@
 <template>
     <div id="app" class="w100 main-wrapper">
+        <img src="./images/111.png" alt="">
         <v-header :isActive=4></v-header>
         <div class="about-me cf">
             <div class="my-photo fl">
@@ -172,7 +173,7 @@
     /*@import "./../../common/css/progress.css";*/
     @import "./../../common/css/reset.css";
     .main-wrapper {
-        background: url("./images/111.png") no-repeat center top;
+        /*background: url("./images/111.png") no-repeat center top;*/
         /*background-size: contain;*/
     }
     .about-wrapper {
