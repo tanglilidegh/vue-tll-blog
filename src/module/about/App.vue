@@ -172,7 +172,7 @@
     /*@import "./../../common/css/progress.css";*/
     @import "./../../common/css/reset.css";
     .main-wrapper {
-        background: #effafa url("./images/header-bg.jpg") no-repeat center top;
+        background: #effafa url("./images/header-bg.jpg") center top;
         background-size: contain;
     }
     .about-wrapper {
