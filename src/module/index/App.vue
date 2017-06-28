@@ -963,6 +963,10 @@
     }
 </script>
 <style>
+    .main-wrapper {
+        background: url("images/222.jpg") no-repeat center top;
+        background-size: contain;
+    }
     .mint-navbar {
         color: #0b6d99 !important;
     }
