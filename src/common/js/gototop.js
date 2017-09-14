@@ -14,14 +14,14 @@ const goToTop = function () {
             btn.style.display = 'block';
         } else {
             btn.style.display = 'none';
-        };
+        }
         // 判断是否抵达顶部，若否，停止计时器；
         if (!isTop) {
             clearInterval(timer);
-        };
+        }
         // 重置布尔值判断；
         isTop = false;
-    }
+    };
     // 设置按钮单击事件；
     btn.onclick = function () {
         // 设置计时器，50毫秒间隔；
@@ -37,10 +37,9 @@ const goToTop = function () {
             if (toTop == 0) {
                 clearInterval(timer);
             }
-            ;
         }, 50);
     }
-}
+};
 const backToTop = function () {
     var compatMode = document.compatMode,
         isChrome = window.navigator.userAgent.indexOf("Chrome") === -1 ? false : true,
