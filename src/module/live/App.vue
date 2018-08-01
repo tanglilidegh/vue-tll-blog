@@ -18,7 +18,7 @@
                     </p>
                     <p class="data-time">2016-10-12 12:00</p>
                 </a>
-                <a class="pic hvr-box-shadow-outset" href="view/detail.vue">
+                <a class="pic hvr-box-shadow-outset" href="live-detail.html">
                     <img src="./images/live-img2.jpg"/>
                     <h3><a href="#">野蛮生长02</a></h3>
                     <p>人长大的标志：试着听从自己内心的声音，而不去在乎外面的声
@@ -27,7 +27,7 @@
                     </p>
                     <p class="data-time">2016-10-12 12:00</p>
                 </a>
-                <a class="pic hvr-box-shadow-outset" href="view/detail.vue">
+                <a class="pic hvr-box-shadow-outset" href="live-detail.html">
                     <img src="./images/live-img3.jpg"/>
                     <h3><a href="#">野蛮生长03</a></h3>
                     <p>人长大的标志：试着听从自己内心的声音，而不去在乎外面的声
@@ -36,7 +36,7 @@
                     </p>
                     <p class="data-time">2016-10-12 12:00</p>
                 </a>
-                <a class="pic hvr-box-shadow-outset" href="view/detail.vue">
+                <a class="pic hvr-box-shadow-outset" href="live-detail.html">
                     <img src="./images/live-img4.jpg"/>
                     <h3><a href="#">野蛮生长04</a></h3>
                     <p>人长大的标志：试着听从自己内心的声音，而不去在乎外面的声
@@ -46,7 +46,7 @@
                     </p>
                     <p class="data-time">2016-10-12 12:00</p>
                 </a>
-                <a class="pic hvr-box-shadow-outset" href="view/detail.vue">
+                <a class="pic hvr-box-shadow-outset" href="live-detail.html">
                     <img src="./images/live-img5.jpg"/>
                     <h3><a href="#">野蛮生长05</a></h3>
                     <p>人长大的标志：试着听从自己内心的声音，而不去在乎外面的声
@@ -55,7 +55,7 @@
                     </p>
                     <p class="data-time">2016-10-12 12:00</p>
                 </a>
-                <a class="pic hvr-box-shadow-outset" href="view/detail.vue">
+                <a class="pic hvr-box-shadow-outset" href="live-detail.html">
                     <img src="./images/live-img6.jpg"/>
                     <h3><a href="#">野蛮生长06</a></h3>
                     <p>人长大的标志：试着不要发呆，能碎觉就不要拖延，能吃饭就不
@@ -64,7 +64,7 @@
                     </p>
                     <p class="data-time">2016-10-12 12:00</p>
                 </a>
-                <a class="pic hvr-box-shadow-outset" href="view/detail.vue">
+                <a class="pic hvr-box-shadow-outset" href="live-detail.html">
                     <img src="./images/design-img1.jpg"/>
                     <h3><a href="#">野蛮生长07</a></h3>
                     <p>人长大的标志：试着听从自己内心的声音，而不去在乎外面的声
@@ -74,7 +74,7 @@
                     </p>
                     <p class="data-time">2016-10-12 12:00</p>
                 </a>
-                <a class="pic hvr-box-shadow-outset" href="view/detail.vue">
+                <a class="pic hvr-box-shadow-outset" href="live-detail.html">
                     <img src="./images/live-img1.jpg"/>
                     <h3><a href="#">野蛮生长08</a></h3>
                     <p>人长大的标志：试着听从自己内心的声音，而不去在乎外面的声
@@ -83,7 +83,7 @@
                     </p>
                     <p class="data-time">2016-10-12 12:00</p>
                 </a>
-                <a class="pic hvr-box-shadow-outset" href="view/detail.vue">
+                <a class="pic hvr-box-shadow-outset" href="live-detail.html">
                     <img src="./images/live-img2.jpg"/>
                     <h3><a href="#">野蛮生长09</a></h3>
                     <p>人长大的标志：试着听从自己内心的声音，而不去在乎外面的声
@@ -93,7 +93,7 @@
                     </p>
                     <p class="data-time">2016-10-12 12:00</p>
                 </a>
-                <a class="pic hvr-box-shadow-outset" href="view/detail.vue">
+                <a class="pic hvr-box-shadow-outset" href="live-detail.html">
                     <img src="./images/live-img3.jpg"/>
                     <h3><a href="#">野蛮生长10</a></h3>
                     <p>人长大的标志：试着听从自己内心的声音，而不去在乎外面的声
@@ -102,7 +102,7 @@
                     </p>
                     <p class="data-time">2016-10-12 12:00</p>
                 </a>
-                <a class="pic hvr-box-shadow-outset" href="view/detail.vue">
+                <a class="pic hvr-box-shadow-outset" href="live-detail.html">
                     <img src="./images/live-img4.jpg"/>
                     <h3><a href="#">野蛮生长</a></h3>
                     <p>人长大的标志：试着听从自己内心的声音，而不去在乎外面的声
@@ -111,7 +111,7 @@
                     </p>
                     <p class="data-time">2016-10-12 12:00</p>
                 </a>
-                <a class="pic hvr-box-shadow-outset" href="view/detail.vue">
+                <a class="pic hvr-box-shadow-outset" href="live-detail.html">
                     <img src="./images/live-img2.jpg"/>
                     <h3><a href="#">野蛮生长</a></h3>
                     <p>人长大的标志：试着听从自己内心的声音，而不去在乎外面的声
@@ -121,7 +121,7 @@
                     </p>
                     <p class="data-time">2016-10-12 12:00</p>
                 </a>
-                <a class="pic hvr-box-shadow-outset" href="view/detail.vue">
+                <a class="pic hvr-box-shadow-outset" href="live-detail.html">
                     <img src="./images/live-img1.jpg"/>
                     <h3><a href="#">野蛮生长</a></h3>
                     <p>人长大的标志：试着易压垮一个人得东西。犹豫不决是你
@@ -130,7 +130,7 @@
                     </p>
                     <p class="data-time">2016-10-12 12:00</p>
                 </a>
-                <a class="pic hvr-box-shadow-outset" href="view/detail.vue">
+                <a class="pic hvr-box-shadow-outset" href="live-detail.html">
                     <img src="./images/live-img2.jpg"/>
                     <h3><a href="#">野蛮生长</a></h3>
                     <p>人长大的呆，能碎觉就不要拖延，能吃饭就不
@@ -139,7 +139,7 @@
                     </p>
                     <p class="data-time">2016-10-12 12:00</p>
                 </a>
-                <a class="pic hvr-box-shadow-outset" href="view/detail.vue">
+                <a class="pic hvr-box-shadow-outset" href="live-detail.html">
                     <img src="./images/live-img3.jpg"/>
                     <h3><a href="#">野蛮生长</a></h3>
                     <p>人长大的标要发呆，能碎话，能找到自己想做的事情就不容易了，青春得浪费在美好事物上。</p>
@@ -154,7 +154,7 @@
 
 <script>
     import 'common/css/reset.css';
-//    import {goToTop} from './../../common/js/gototop';
+    import { goToTop } from './../../common/js/gototop';
     import VFooter from 'components/common/footer';
     import VHeader from 'components/common/header';
     import Vue from 'vue';
@@ -174,7 +174,7 @@
                 setTimeout(() => Indicator.close(), 2000);
             });
 
-//            goToTop();
+            goToTop();
         },
     }
 </script>

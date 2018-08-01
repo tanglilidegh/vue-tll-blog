@@ -1,6 +1,6 @@
 <template>
     <div id="app" class="w100 main-wrapper">
-        <img src="./images/111.png" alt="">
+        <!--<img src="./images/111.png" alt="">-->
         <v-header :isActive=4></v-header>
         <div class="about-me cf">
             <div class="my-photo fl">
@@ -146,18 +146,18 @@
 </template>
 
 <script>
-//    import 'common/css/reset.css';
+
     import VFooter from 'components/common/footer';
     import VHeader from 'components/common/header';
-//    import {goToTop} from './../../common/js/gototop';
-
+    import { goToTop } from './../../common/js/gototop';
+    import 'common/css/reset.css';
     export default {
         name: 'app',
         data(){
             return {}
         },
         mounted() {
-//            goToTop();
+            goToTop();
         },
         components: {
             VFooter, VHeader
@@ -169,10 +169,12 @@
     @import "./../../common/css/common.scss";
     /*@import "./../../common/css/progress.css";*/
     @import "./../../common/css/reset.css";
+
     .main-wrapper {
-        background: url("./images/111.png") no-repeat center top;
+        background: url("./images/111.jpg") no-repeat center top;
         /*background-size: contain;*/
     }
+
     .about-wrapper {
         width: 100%;
     }
@@ -180,6 +182,7 @@
     .bg-gray {
         background: rgba(255, 252, 7, 0.1);
     }
+
     .about-me {
         width: 60%;
         min-width: 1280px;
@@ -472,10 +475,12 @@
         background-color: #e3fdff;
         box-shadow: 0 2px 15px rgba(11, 109, 153, 0.3);
     }
-    .progress-radial:first-child{
+
+    .progress-radial:first-child {
         margin-left: 0;
     }
-    .progress-radial:last-child{
+
+    .progress-radial:last-child {
         margin-right: 0;
     }
 
@@ -1306,7 +1311,6 @@
         background-image: linear-gradient(-36deg, #e3fdff 50%, transparent 50%, transparent), linear-gradient(270deg, #e3fdff 50%, #93f7ff 50%, #1cbfdb);
     }
 
-
     .progress-65:before {
         transform: rotate(234deg) translate(0, -69px);
     }
@@ -1546,7 +1550,6 @@
     .progress-85 {
         background-image: linear-gradient(36deg, #e3fdff 50%, transparent 50%, transparent), linear-gradient(270deg, #e3fdff 50%, #93f7ff 50%, #1cbfdb);
     }
-
 
     .progress-85:before {
         transform: rotate(306deg) translate(0, -67.5px);

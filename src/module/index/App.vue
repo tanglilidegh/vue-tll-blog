@@ -1,10 +1,10 @@
 <template>
     <div id="app" class="main-wrapper w100">
-        <img src="./images/222.png" alt="">
+        <!--<img src="./images/222.png" alt="">-->
         <v-header :isActive=0></v-header>
         <mt-swipe :auto="4000" class="min-swipe">
             <mt-swipe-item>
-                <!--<img src="./images/header-bg.png" alt="">-->
+                <img src="./images/222.png" alt="">
             </mt-swipe-item>
             <mt-swipe-item>
                 <img src="./images/bg.jpg" alt="">
@@ -844,88 +844,10 @@
     Vue.component(TabItem.name, TabItem);
     import {Indicator} from 'mint-ui';
 
-
-    import AV from 'leancloud-storage';
-
-    let APP_ID = 'NIBvX6tQOTPhLV3tY00uPii6-gzGzoHsz';
-    let APP_KEY = 'bkLlTnqDmOrBEKTkqCnsUO92';
-
-    // 初始化LeanCloud SDK
-    AV.init({
-        appId: APP_ID,
-        appKey: APP_KEY
-    });
-
     import 'common/css/reset.css';
-    import Hello from 'components/Hello/Hello'
     import VFooter from 'components/common/footer'
     import VHeader from 'components/common/header'
-    //    console.log(AV);
-    const TestObject = AV.Object.extend('TestObject');
-    const testObject = new TestObject();
-    testObject.save({words: 'Hello World!'});
-    //      alert('LeanCloud Rocks!');
-    //
-    //    // 该语句应该只声明一次
-    //    var TestObject2 = AV.Object.extend('DataTypeTest');
-    //    var number = 2014;
-    //    var string = 'famous film name is ' + number;
-    //    var date = new Date();
-    //    var array = [string, number];
-    //    var object = {number: number, string: string};
-    //    var testObject2 = new TestObject2();
-    //    testObject2.set('testNumber', number);
-    //    testObject2.set('testString', string);
-    //    testObject2.set('testDate', date);
-    //    testObject2.set('testArray', array);
-    //    testObject2.set('testObject', object);
-    //    testObject2.set('testNull', null);
-    //    testObject2.save().then(function (testObject2) {
-    //        console.log(testObject2);
-    //        // 成功
-    //    }, function (error) {
-    //        console.log(333);
-    //        // 失败
-    //    });
-    //
-    //    // 声明类型
-    //    var TodoFolder = AV.Object.extend('TodoFolder');
-    //    // 新建对象
-    //    var todoFolder = new TodoFolder();
-    //    // 设置名称
-    //    todoFolder.set('name', '工作');
-    //    // 设置优先级
-    //    todoFolder.set('priority', 1);
-    //    todoFolder.save().then(function (todo) {
-    //        console.log('objectId is ' + todo.id);
-    //    }, function (error) {
-    //        console.log(error);
-    //    });
-    //
-    //    new AV.Query('DataTypeTest').first()
-    //        .then(function (data) {
-    //            var members = data;
-    //            console.log(111);
-    //            console.log(JSON.stringify(members));
-    //            console.log(222);
-    //            var currentVersion = members.get('version');
-    //            members.set('version', currentVersion + 1);
-    //            members.save(null, {
-    //                query: new AV.Query('members').equalTo('version', currentVersion)
-    //            }).then(function (data) {
-    //                console.log(JSON.stringify(data));
-    //            }, function (error) {
-    //                if (error) {
-    //                    throw error;
-    //                }
-    //            });
-    //        }, function (error) {
-    //            if (error) {
-    //                throw error;
-    //            }
-    //        });
-    //
-    //
+
     export default {
         name: 'app',
         data(){
@@ -935,19 +857,7 @@
             }
         },
         mounted() {
-            let _this = this;
-            var query = new AV.Query('TestObject');
-            query.get('5927d9fb0ce46300575d5957').then(function (data) {
-                console.log("aaa", JSON.stringify(data), "bbb");
-                _this.content = data;
-            }, function (error) {
-                // 失败了
-            });
-
-
             goToTop();
-
-
             this.$nextTick(function () {
                 Indicator.open({
                     text: '加载中...',
@@ -958,7 +868,7 @@
             });
         },
         components: {
-            Hello, VFooter, VHeader
+            VFooter, VHeader
         }
     }
 </script>
